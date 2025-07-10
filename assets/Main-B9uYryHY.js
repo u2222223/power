@@ -1764,7 +1764,7 @@ var Kt = function () {
                   "ul",
                   { staticClass: "side-ears-more" },
                   [
-                    t._l("123456", function (a) {
+                    t._l("1234", function (a) {
                       return [
                         t.earAuth[a]
                           ? e(
