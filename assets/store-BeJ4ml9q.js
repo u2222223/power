@@ -1,0 +1,1 @@
+var a=[],u=null,e=null,t={},s=null;let i=function(){};function c(n){t={...n},i(t)}function o(n){a=n}function f(n){s=n}function r(n){u=n}function g(n){e=n}function l(){return a}function b(){return s}function d(){return e}function I(n=null){return n&&(i=n),t}function p(){i=function(){}}export{f as a,c as b,l as c,b as d,d as e,g as f,I as g,t as h,p as i,r as j,o as s,u as w};

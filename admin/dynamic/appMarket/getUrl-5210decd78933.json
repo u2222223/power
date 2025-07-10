@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "message": "操作成功！",
+  "code": 200,
+  "result": {
+    "url": "https://gd.gdgzg.top",
+    "name": "xx安全监管平台",
+    "ename": null,
+    "company": "中国能源建设集团广东省电力设计研究院有限公司",
+    "ecompany": null
+  },
+  "timestamp": 1752029290410
+}

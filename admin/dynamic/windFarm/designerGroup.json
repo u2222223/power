@@ -1,0 +1,314 @@
+{
+  "success": true,
+  "message": "操作成功！",
+  "code": 200,
+  "result": [
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 19.8
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": "",
+      "preDesign": null,
+      "capacity": 12.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 7.075
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 20.35
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "前期设计方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": null,
+      "preDesign": "xxx",
+      "capacity": 25.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "前期设计方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": null,
+      "preDesign": "xxx",
+      "capacity": 31.55
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 40.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "前期设计方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": null,
+      "preDesign": "xxx",
+      "capacity": 40.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 50.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 50.2
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 24.5
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 50.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 45.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 40.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 40.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "前期设计方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": null,
+      "preDesign": "xxx",
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": "",
+      "capacity": 60.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 50.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "前期设计方",
+      "companyName": "xxx",
+      "designer": "",
+      "contractor": null,
+      "preDesign": "xxx",
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 60.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 40.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 100.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "前期设计方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": null,
+      "preDesign": "xxx",
+      "capacity": 20.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 59.4
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "总承包方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": "xxx",
+      "preDesign": null,
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "前期设计方",
+      "companyName": "xxx",
+      "designer": null,
+      "contractor": null,
+      "preDesign": "xxx",
+      "capacity": 9.1
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 50.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 30.0
+    },
+    {
+      "desc": "xx示范项目",
+      "companyType": "勘测设计方",
+      "companyName": "xxx",
+      "designer": "xxx",
+      "contractor": null,
+      "preDesign": null,
+      "capacity": 35.2
+    }
+  ],
+  "timestamp": 1752034943734
+}

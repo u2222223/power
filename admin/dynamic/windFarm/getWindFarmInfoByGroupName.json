@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "message": "操作成功！",
+  "code": 200,
+  "result": [
+    { "_id": "xxx", "etattr_capacity": 450.0 },
+    { "_id": "xxx", "etattr_capacity": 80.0 }
+  ],
+  "timestamp": 1752029261443
+}

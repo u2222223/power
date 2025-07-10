@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>回放</title>
+    <link rel="stylesheet" href="./xgplayer/index.min.css" />
+    <!-- <script type="text/javascript" src="./ezuikit_static/rec/jquery.min.js"></script> -->
+    <script type="text/javascript" src="./ezuikit.js"></script>
+    <script type="text/javascript" src="./xgplayer/index.min.js"></script>
+    <script type="text/javascript" src="./xgplayer/xgplayer-flv.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="video-recbox"></div>
+  </body>
+
+  <script>
+    console.log(location.href);
+    function getUrlParams() {
+      const params = new URLSearchParams(window.location.search);
+      return Object.fromEntries(params.entries());
+    }
+
+    // 使用示例
+    const urlParams = getUrlParams();
+    console.log(urlParams); // 输出类似 { accessToken: 'xxxx', protocol: 'ezopen' }
+    if (urlParams.accessToken) {
+      if (urlParams.protocol === 'ezopen') {
+        const player = new EZUIKit.EZUIKitPlayer({
+          id: 'video-recbox',
+          width: window.innerWidth,
+          height: window.innerHeight,
+          template: urlParams.type,
+          audio: false,
+          url: decodeURIComponent(urlParams.videoUrl),
+          accessToken: urlParams.accessToken,
+          autoPlay: true,
+          staticPath: './ezuikit_static',
+          env: {
+            domain: urlParams.areaDomain, // 区域域名
+          },
+        });
+      } else if (urlParams.protocol === 'tianyiyun') {
+        var option = {
+          id: 'video-recbox',
+          url: decodeURIComponent(urlParams.videoUrl),
+          width: window.innerWidth,
+          height: window.innerHeight,
+          isLive: true,
+          playbackRate: false,
+          cssFullscreen: false,
+          playsinline: true,
+          plugins: [FlvPlayer],
+          autoplayMuted: true,
+          autoplay: true,
+        }
+        var player = new window.Player(option);
+      }
+    }
+  </script>
+</html>

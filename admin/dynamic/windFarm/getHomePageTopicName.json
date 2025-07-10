@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "message": "操作成功！",
+  "code": 200,
+  "result": {
+    "wind-speed": "4.507",
+    "power-day": "343.231",
+    "wind-stat": "{\"Speedup\":2,\"Maintain\":5,\"PowerRationing\":7,\"envShutdown\":5,\"initialization\":3,\"Fault\":2,\"Standby\":5,\"Startup\":3,\"GridConnected\":139}",
+    "wind-power": "200410.689",
+    "power-total": "5623382.816"
+  },
+  "timestamp": 1752035212715
+}

@@ -1,0 +1,62 @@
+<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="13"
+                        height="11.003"
+                        viewBox="0 0 13 11.003"
+                      >
+                        <g
+                          id="组_152"
+                          data-name="组 152"
+                          transform="translate(-5558.031 -1407.68)"
+                        >
+                          <path
+                            id="路径_114"
+                            data-name="路径 114"
+                            d="M5570.012,1407.68v11h-11.981v-2.257s9.282.287,9.636-8.743C5567.609,1407.733,5570.012,1407.68,5570.012,1407.68Z"
+                            fill="#D682FF"
+                          />
+                          <path
+                            id="联合_5"
+                            data-name="联合 5"
+                            d="M1.359,6V2.4H0L2,0,4,2.4H2.665V6Z"
+                            transform="translate(5562.579 1415.654) rotate(-135)"
+                            fill="#D682FF"
+                          />
+                          <path
+                            id="路径_115"
+                            data-name="路径 115"
+                            d="M5569.851,1409.33h1.294"
+                            transform="translate(-0.114)"
+                            fill="none"
+                            stroke="#D682FF"
+                            stroke-width="1"
+                          />
+                          <path
+                            id="路径_116"
+                            data-name="路径 116"
+                            d="M5569.851,1409.33h1.294"
+                            transform="translate(-0.114 2.656)"
+                            fill="none"
+                            stroke="#D682FF"
+                            stroke-width="1"
+                          />
+                          <path
+                            id="路径_117"
+                            data-name="路径 117"
+                            d="M5569.851,1409.33h1.294"
+                            transform="translate(-0.114 5.433)"
+                            fill="none"
+                            stroke="#D682FF"
+                            stroke-width="1"
+                          />
+                          <path
+                            id="路径_118"
+                            data-name="路径 118"
+                            d="M5569.851,1410.063h1.294"
+                            transform="translate(-0.114 8.12)"
+                            fill="none"
+                            stroke="#D682FF"
+                            stroke-width="1"
+                          />
+                        </g>
+                      </svg>

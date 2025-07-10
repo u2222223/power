@@ -1,0 +1,127 @@
+.chat-wrap[data-v-93ff04eb] {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 76px;
+    background: url(./chat-bg-2-BXu8u8p6.png) #001f33cc no-repeat center center;
+    background-size: 100% 100%;
+    border: 1px solid rgb(0, 74, 121)
+}
+
+.chat-wrap[data-v-93ff04eb] .send-wrap,
+.chat-wrap[data-v-93ff04eb] .chat-list .message-list {
+    width: 100%
+}
+
+.chat-dialog-wrap {
+    position: fixed;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 !important;
+    height: 750px;
+    border-radius: 6px;
+    overflow: hidden
+}
+
+.chat-dialog-wrap .tip-column {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    padding: 0 20px
+}
+
+.chat-dialog-wrap .el-dialog__header {
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    padding: 20px 16px 13px;
+    font-size: 18px;
+    cursor: move;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.chat-dialog-wrap .el-dialog__header:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background: linear-gradient(90deg, #315457, #00a4b400)
+}
+
+.chat-dialog-wrap .el-dialog__body {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.home[data-v-32c57173] {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+.home .container-inner[data-v-32c57173] {
+    flex: 1;
+    background-color: #000;
+    background-size: 100% 100%;
+    position: relative
+}
+
+.home .chat[data-v-32c57173] {
+    display: none;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right: 35px;
+    bottom: 75px;
+    cursor: pointer;
+    z-index: 9999
+}
+
+.container-inner #sidebar {
+    z-index: 1030 !important
+}
+
+.container-inner .bigBox {
+    z-index: 1031 !important
+}
+
+.container-inner .cesium-viewer-toolbar {
+    top: 100px !important;
+    right: 13px !important
+}
+
+.container-inner .cesium-viewer-toolbar {
+    display: none
+}
+
+.ant-modal-mask {
+    z-index: 1100 !important
+}
+
+.ant-modal-wrap {
+    z-index: 1200 !important
+}
+
+.sigleVideo .ant-modal-mask,
+.sigleVideo .ant-modal-wrap {
+    z-index: 9999 !important
+}
+
+.ant-notification {
+    z-index: 2100 !important
+}

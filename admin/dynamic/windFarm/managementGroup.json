@@ -1,0 +1,99 @@
+{
+  "success": true,
+  "message": "操作成功！",
+  "code": 200,
+  "result": {
+    "size": 11,
+    "data": [
+      {
+        "city": "某城市名",
+        "list": [
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 40.0,
+            "managementUnit": null
+          },
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 40.0,
+            "managementUnit": null
+          }
+        ]
+      },
+      {
+        "city": "某城市名",
+        "list": [
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          },
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          },
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          }
+        ]
+      },
+      {
+        "city": "某城市名",
+        "list": [
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 40.0,
+            "managementUnit": null
+          }
+        ]
+      },
+      {
+        "city": "某城市名",
+        "list": [
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          },
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          },
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          },
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          },
+          {
+            "desc": "xx项目",
+            "city": "某城市名",
+            "capacity": 50.0,
+            "managementUnit": null
+          }
+        ]
+      }
+    ],
+    "managementUnit": [null],
+    "totalCapacity": 520.0
+  },
+  "timestamp": 1752035003044
+}

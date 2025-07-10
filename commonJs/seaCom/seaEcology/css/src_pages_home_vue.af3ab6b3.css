@@ -1,0 +1,1676 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-102.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-102.use[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/cesium-viewer2.vue?vue&type=style&index=0&id=670af6f3&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+.full-hg {
+  height: 100%;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/gs-dialog.vue?vue&type=style&index=0&id=2c73962e&lang=scss&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+[data-v-2c73962e] .right-dialog {
+  margin-left: calc(10% + 250px);
+}
+[data-v-2c73962e] .ant-modal {
+  padding-bottom: 14px;
+}
+[data-v-2c73962e] .dialog-dark {
+  border-radius: 4px;
+  box-shadow: inset 0 0 8px 2px #11d3e9;
+  border: 1px solid #1fe7ff;
+  background: #1c256a;
+}
+[data-v-2c73962e] .dialog-dark .ant-modal-content {
+  background-color: transparent;
+}
+[data-v-2c73962e] .dialog-dark .ant-modal-header {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.1215686275);
+}
+[data-v-2c73962e] .dialog-dark .ant-modal-title {
+  color: #fff;
+}
+[data-v-2c73962e] .dialog-dark .ant-modal-close {
+  color: #fff;
+}
+.divider[data-v-2c73962e] {
+  width: 100%;
+  height: 1px;
+  background: #aaa;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/buttonBar.vue?vue&type=style&index=0&id=15e0ba4c&lang=scss&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.button-bar[data-v-15e0ba4c] {
+  padding: 0 10px 10px 10px;
+  box-shadow: 0 0 2px 1px rgba(19, 217, 243, 0.2);
+  background-color: rgba(7, 31, 119, 0.3);
+  border-radius: 20px;
+}
+.button-bar .buttonItem[data-v-15e0ba4c] {
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid rgba(19, 217, 243, 0.2);
+  border-radius: 50%;
+}
+.button-bar .buttonItem i[data-v-15e0ba4c] {
+  font-size: 32px;
+  line-height: 40px;
+  color: #1296db;
+}
+.button-bar .isSelected[data-v-15e0ba4c] {
+  border: 2px solid rgba(19, 217, 243, 0.6);
+  box-shadow: 0 0 2px 2px #13d9f3;
+}
+.button-bar .isSelected i[data-v-15e0ba4c] {
+  line-height: 40px;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/meteorologicalData/meteorologicalLeft.vue?vue&type=style&index=0&id=3e899f97&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.meteorological-left[data-v-3e899f97] {
+  height: 90vh;
+  background: url(./img/sideBg.bfbb0d73.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 35px 20px 35px 24px;
+  width: 425px;
+}
+.meteorological-left .title[data-v-3e899f97] {
+  background: url(./img/titleBg.56fccd24.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: left;
+  color: #fff;
+  font-family: Source Han Sans CN;
+  font-weight: 600;
+  line-height: 28px;
+  padding-left: 32px;
+  font-style: italic;
+  font-size: 15px;
+  height: 35px;
+  letter-spacing: 2px;
+}
+.meteorological-left .left-top .main-wrapper[data-v-3e899f97] {
+  color: #fff;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.meteorological-left .left-top .main-wrapper .text[data-v-3e899f97] {
+  line-height: 32px;
+}
+.meteorological-left .left-top .main-wrapper .timeRange[data-v-3e899f97] {
+  display: flex;
+  line-height: 28px;
+  font-size: 14px;
+}
+.meteorological-left .left-top .main-wrapper .timeRange .label[data-v-3e899f97] {
+  width: 55px;
+  padding-right: 12px;
+  text-align: right;
+}
+.meteorological-left .left-top .main-wrapper .timeRange .label .tip[data-v-3e899f97] {
+  color: #f56c6c;
+  margin-right: 4px;
+}
+.meteorological-left .left-bottom[data-v-3e899f97] {
+  flex: 1;
+}
+.meteorological-left .left-bottom .bottom-main-wrapper[data-v-3e899f97] {
+  color: #fff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.meteorological-left .left-bottom .bottom-main-wrapper .filter-box[data-v-3e899f97] {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0 10px 16px;
+}
+.tableWrapper[data-v-3e899f97] {
+  width: 100%;
+  height: calc(90vh - 442px);
+  padding: 0.8vw 0 0.8vw 0.9vw;
+  color: #fff;
+  border-radius: 6px;
+  position: relative;
+  font-size: 14px;
+}
+.tableWrapper .headerRow[data-v-3e899f97] {
+  display: flex;
+  height: 32px;
+  width: calc(100% - 0.25vw);
+}
+.tableWrapper .headerRow .headerCloumn[data-v-3e899f97] {
+  width: 100%;
+  display: flex;
+}
+.tableWrapper .headerRow .headerCloumn .column[data-v-3e899f97] {
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 4px;
+}
+.tableWrapper .tableContent[data-v-3e899f97] {
+  height: calc(100% - 32px);
+  width: 100%;
+  overflow-y: auto;
+  padding-right: 3px;
+}
+.tableWrapper .tableContent .tableRow[data-v-3e899f97] {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 3px;
+  display: flex;
+  position: relative;
+  border-image-slice: 1;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAAfCAYAAADKtVcYAAAAAXNSR0IArs4c6QAAAa5JREFUeF7t3bFtwgAQBdDzBumQGCBKzRApwCzhGibICqkCtZfAaTJEBkCpUViA1lEoUAqXV5zCQ6IB6fh+d/otTVzGMaZep/Mu2m4/+Z0PCRAgQCBHYOg3MZ9tp4Y114JerNY5v2QKAQIECKQIfL4fFHSKpCEECBBIFlDQyaDGESBAIEtAQWdJmkOAAIFkAQWdDGocAQIEsgSuBf31/RZt95E10xwCBAgQSBB4fXlo4mn5GBG/by8CBAgQqCNwVNB1liEJAQIE/gooaPdAgACBogIKuuhixCJAgICCdgMECBAoKqCgiy5GLAIECChoN0CAAIGiAgq66GLEIkCAgIJ2AwQIECgqoKCLLkYsAgQIKGg3QIAAgaICCrroYsQiQICAgnYDBAgQKCqgoIsuRiwCBAgoaDdAgACBogIKuuhixCJAgICCdgMECBAoKnD0jypFNyMWAQJ3LjD0z01cxjEWq/WdU3h8AgQI1BLwp7G19iENAQIEbgIK2jEQIECgqICCLroYsQgQIKCg3QABAgSKCtwKeirf6byLttsXjS4WAQIE/ofA0G9iPttOPcwPzRxy04VZzewAAAAASUVORK5CYII=) no-repeat;
+  background-size: 100% 100%;
+}
+.tableWrapper .tableContent .tableRow .tableColumn[data-v-3e899f97] {
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+[data-v-3e899f97] .ant-form-item {
+  margin-bottom: 19px;
+}
+[data-v-3e899f97] .ant-form-item-label > label {
+  color: #fff;
+}
+[data-v-3e899f97] .ant-form-item-with-help {
+  margin-bottom: 0;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/meteorologicalData/meteorologicalRight.vue?vue&type=style&index=0&id=60212588&lang=scss& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.dialog-dark ::v-deep .ant-tabs,
+.right-dialog ::v-deep .ant-tabs {
+  height: 100%;
+}
+.dialog-dark ::v-deep .ant-tabs .ant-tabs-nav .ant-tabs-tab,
+.right-dialog ::v-deep .ant-tabs .ant-tabs-nav .ant-tabs-tab {
+  height: 100%;
+  line-height: 48px;
+  width: 105px;
+  text-align: center;
+  padding: 0;
+  color: #fff;
+  margin: 0;
+}
+.dialog-dark ::v-deep .ant-tabs .ant-tabs-nav .ant-tabs-tab-active,
+.right-dialog ::v-deep .ant-tabs .ant-tabs-nav .ant-tabs-tab-active {
+  color: #00f6ff;
+  background: linear-gradient(rgba(86, 139, 146, 0), #2399b5);
+}
+.dialog-dark ::v-deep .ant-tabs .ant-tabs-nav .ant-tabs-tab:hover,
+.right-dialog ::v-deep .ant-tabs .ant-tabs-nav .ant-tabs-tab:hover {
+  color: #00f6ff;
+}
+.dialog-dark ::v-deep .ant-tabs .ant-tabs-top-content,
+.dialog-dark ::v-deep .ant-tabs .ant-tabs-bottom-content,
+.right-dialog ::v-deep .ant-tabs .ant-tabs-top-content,
+.right-dialog ::v-deep .ant-tabs .ant-tabs-bottom-content {
+  height: 90%;
+}
+.dialog-dark ::v-deep .ant-btn,
+.right-dialog ::v-deep .ant-btn {
+  color: #fff;
+  background-color: #1c256a;
+  border-color: #1fe7ff;
+  box-shadow: inset 0 0 8px 2px #11d3e9;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/meteorologicalData/meteorologicalRight.vue?vue&type=style&index=1&id=60212588&lang=scss&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.meteorological-right[data-v-60212588] {
+  height: 90vh;
+  width: 420px;
+  background: url(./img/sideBg.bfbb0d73.png) no-repeat;
+  transform: scaleX(-1);
+  background-size: 100% 100%;
+  padding: 35px 20px 35px 24px;
+}
+.meteorological-right .content-box[data-v-60212588] {
+  height: 100%;
+  transform: scaleX(-1);
+}
+.meteorological-right .content-box .title[data-v-60212588] {
+  background: url(./img/titleBg.56fccd24.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: left;
+  color: #fff;
+  font-family: Source Han Sans CN;
+  font-weight: 600;
+  line-height: 28px;
+  padding-left: 32px;
+  font-style: italic;
+  font-size: 15px;
+  height: 35px;
+  letter-spacing: 2px;
+}
+.meteorological-right .content-box .main-wrapper[data-v-60212588] {
+  color: #fff;
+  text-align: left;
+  height: 95%;
+}
+.meteorological-right .content-box .main-wrapper .btn-group[data-v-60212588] {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+.meteorological-right .content-box .main-wrapper .btn-group .btnItem[data-v-60212588] {
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.3764705882);
+  border: 1px solid rgba(21, 219, 131, 0.3764705882);
+  box-shadow: inset 0 0 0.3vw rgba(21, 219, 131, 0.3764705882);
+  cursor: pointer;
+  margin-right: 12px;
+}
+.meteorological-right .content-box .main-wrapper .btn-group .isSected[data-v-60212588] {
+  color: #fff;
+  border: 1px solid #43c8ff;
+  box-shadow: inset 0 0 0.65vw #43c8ff;
+}
+.meteorological-right .content-box .main-wrapper .tab-content[data-v-60212588] {
+  height: calc(100% - 50px);
+  display: flex;
+  justify-content: space-around;
+}
+.meteorological-right .content-box .main-wrapper .tab-content .main-connect[data-v-60212588] {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.meteorological-right .content-box .main-wrapper .tab-content .main-connect .block[data-v-60212588] {
+  flex: 1;
+}
+.bottom[data-v-60212588] {
+  margin-top: 10px;
+  text-align: center;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/player-bar.vue?vue&type=style&index=0&id=41ba95b7&lang=scss&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.player-bar[data-v-41ba95b7] {
+  height: 100%;
+  background: #002566;
+  display: flex;
+  justify-content: flex-start;
+}
+.player-bar .player-block[data-v-41ba95b7] {
+  height: 100%;
+  width: 42px;
+}
+.player-bar .player-block .player-button[data-v-41ba95b7] {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player-bar .player-block .player-button img[data-v-41ba95b7] {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+}
+.player-bar .player-block .player-selectDate[data-v-41ba95b7] {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.player-bar .player-block .player-selectDate .dateRange[data-v-41ba95b7] {
+  cursor: pointer;
+}
+.player-bar .player-block .player-selectDate[data-v-41ba95b7] .ant-input {
+  height: 20px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
+  box-shadow: none;
+}
+.player-bar .player-block .player-selectDate[data-v-41ba95b7] .ant-input-sm {
+  padding: 0;
+}
+.player-bar .player-block .player-selectDate[data-v-41ba95b7] .ant-calendar-picker .ant-calendar-picker-input {
+  padding: 0px;
+}
+.player-bar .player-block .player-selectDate[data-v-41ba95b7] .ant-calendar-picker .ant-calendar-range-picker-input {
+  width: 45% !important;
+}
+.player-bar .player-block .player-selectDate[data-v-41ba95b7] .ant-calendar-picker .ant-calendar-picker-icon {
+  display: none;
+}
+.player-bar .player-block .player-months[data-v-41ba95b7] {
+  height: calc(100% - 90px);
+  overflow-y: auto;
+}
+.player-bar .player-block .player-months .player-month[data-v-41ba95b7] {
+  height: calc((100% - 12px) / 12);
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-top: 1px #528c97 solid;
+  cursor: pointer;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player-bar .player-line[data-v-41ba95b7] {
+  height: 100%;
+  width: 4px;
+  background: #43617a;
+  cursor: pointer;
+  overflow: hidden;
+}
+.player-bar .player-line .player-line-top[data-v-41ba95b7] {
+  height: 90px;
+  background: #00cfff;
+}
+.player-bar .player-line .player-line-bottom[data-v-41ba95b7] {
+  height: calc(100% - 90px);
+  cursor: pointer;
+}
+.player-bar .player-line .player-line-bottom .player-progress[data-v-41ba95b7] {
+  background: #00cfff;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/resourceDistribution/resourceDistributionRight.vue?vue&type=style&index=0&id=6ef5f8b2&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.resource-distribution-right[data-v-6ef5f8b2] {
+  height: 90vh;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+.resource-distribution-right .wrapper-center[data-v-6ef5f8b2] {
+  height: 100%;
+}
+.resource-distribution-right .wrapper-left[data-v-6ef5f8b2] {
+  height: 80px;
+  background: #001d50;
+  box-shadow: inset 0px 0px 6px 0px rgba(36, 217, 252, 0.7);
+  display: flex;
+  border-radius: 5px 0px 0px 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  justify-content: center;
+  align-items: center;
+}
+.resource-distribution-right .wrapper-left img[data-v-6ef5f8b2] {
+  margin: auto;
+  height: 22px;
+  width: auto;
+  cursor: pointer;
+}
+.resource-distribution-right .wrapper-left[data-v-6ef5f8b2]:hover {
+  border: 1px solid #00cfff;
+}
+.resource-distribution-right .wrapper-right[data-v-6ef5f8b2] {
+  height: 100%;
+  background: linear-gradient(90deg, #2b597f 0%, rgba(0, 37, 102, 0.9) 100%);
+  width: 250px;
+}
+.resource-distribution-right .wrapper-right .title[data-v-6ef5f8b2] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  line-height: 50px;
+  font-size: 15px;
+  margin: 0 16px;
+  font-weight: bold;
+}
+.resource-distribution-right .wrapper-right .subTitle[data-v-6ef5f8b2] {
+  display: flex;
+  margin-left: 16px;
+  justify-content: flex-start;
+  margin: 0px 15px;
+  font-size: 14px;
+}
+.resource-distribution-right .wrapper-right .subTitle .type[data-v-6ef5f8b2] {
+  margin-right: 10px;
+  padding: 2px 14px;
+  cursor: pointer;
+}
+.resource-distribution-right .wrapper-right .subTitle .isSelected[data-v-6ef5f8b2] {
+  background: #1e4e94;
+  box-shadow: inset 0px 0px 6px 0px rgba(36, 217, 252, 0.61);
+  border-radius: 20px;
+  border: 1px solid #24d9fc;
+}
+.resource-distribution-right .wrapper-right .mainPart[data-v-6ef5f8b2] {
+  margin-top: 10px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list[data-v-6ef5f8b2] {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .listItem[data-v-6ef5f8b2] {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .listItem .listItemInfo[data-v-6ef5f8b2] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+  cursor: pointer;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .currentItem[data-v-6ef5f8b2] {
+  background: linear-gradient(180deg, rgba(86, 139, 146, 0.23) 0%, #26adcd 100%);
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw[data-v-6ef5f8b2] {
+  height: 105px;
+  border-top: 1px dotted #24d9fc;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row[data-v-6ef5f8b2] {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  text-align: left;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .title[data-v-6ef5f8b2] {
+  width: 80px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .item[data-v-6ef5f8b2] {
+  flex: 1;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .item i[data-v-6ef5f8b2] {
+  cursor: pointer;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .item i[data-v-6ef5f8b2]:hover {
+  color: #00cfff;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .item[data-v-6ef5f8b2] .ant-calendar-picker .ant-input {
+  border: 1px solid #16c7ea;
+  background: transparent;
+  box-shadow: inset 0px 0px 7px 0px rgba(22, 199, 234, 0.77);
+  border-radius: 2px 2px 2px 2px;
+  color: #fff;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .item[data-v-6ef5f8b2] .ant-calendar-picker .ant-calendar-range-picker-separator,
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .item[data-v-6ef5f8b2] .ant-calendar-picker .ant-calendar-picker-icon,
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .row .item[data-v-6ef5f8b2] .ant-calendar-picker .ant-calendar-picker-clear {
+  color: #fff;
+  background: transparent;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .bottom[data-v-6ef5f8b2] {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .bottom .button[data-v-6ef5f8b2] {
+  width: 75px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .bottom .button.normal[data-v-6ef5f8b2] {
+  height: 30px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAAAfCAYAAADk+ePmAAAAAXNSR0IArs4c6QAAAt5JREFUaEPtm99Lk1EYx5/n3dzWsF25RCG68CLQ/QGFQSrdjKgIQoyKCHXMLnYhERIUohAR4cUuUqYSUZFIECWxm1CDpP6AJXSxiwgUm1dL3vbzPHHaO3lnyw3deg/47O5l5z3v9zyf87znOc95XoQqf0TUAQDnAKATANoBoAUAXFXezs0AUgCwDgCrALACAAuI+KUaw2ClRkR0CQBuEUErkXidy9GHZFKPxWLf17q7R39Vup//L1hgaWn0kM93tNXjcfvsdjyNqF1EhDUAeISIr3az0z8hEdFxAJglIlcmkxkLhZ5GI5H3go1eGwsEAme0cPi63+Fw3ENE6WX9iPi1XO9lIeVyuV5N0x4T0d2hoZkZhlMbMOV6kbAmJwcGEHFcCHHTbrfP72z3FyQiChHRsK5nzzc2Xq3qnVm/IRycnre2nne43Q1vEXECEcPmkZdAMjzoYSKR7GluHvx2cEykxkg3NqaPeb2eRSHEbbNHbUOSaxARreh6toc9yDpohkctImJncY0yQ/oohHhhs/VFrJPIT5YWyOfnApqmXUHEU/L6DyQZZhPRSDA4fZKDBOsnigwmpqYGPyHiAxmeFyF9TqfT912ua++sl8gKpAVSqWdnnU7nHUQ8gTKTQATRYDDSxl6kzgQpeFMgjgh+CWlECNFis/UNqyORlRhr04SmaesS0kImk3/idF5+w6ZRywLp9MsLDofthoQU39z86fd6++NqSWQ1icRsW1PT4aiEpC8vrx7hZKl6k0ImZbu62n9ISAKxt0E9iayosD2az7InKTwXzJ7Ea5KioMxrEkd3ikIyR3e8T1IUUj4/t71P4oyDgpBKMg5GgpVzd4qBKsndcRZcMToAUDYLboDi8yRFeJU9TzIg8cmsApB2PZmV+rjGwVpKFWscivK4WsgaUFVXCxXlcd3d/wO1p7o7k0dxBWsdWe27gtWsjWvBa0OqLrXgO6XxVxX7hrXnryp+A3Hazl48P08qAAAAAElFTkSuQmCC) no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  width: 92px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .areaDraw .bottom .button.normal[data-v-6ef5f8b2]:hover {
+  background: url(data:image/png;base64,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) no-repeat;
+  background-size: 100% 100%;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix[data-v-6ef5f8b2] {
+  border-top: 1px dotted #24d9fc;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .top[data-v-6ef5f8b2] {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .top .title[data-v-6ef5f8b2] {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .top .buttons[data-v-6ef5f8b2] {
+  font-size: 18px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .top .buttons i[data-v-6ef5f8b2] {
+  cursor: pointer;
+  padding-right: 10px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .top .buttons i[data-v-6ef5f8b2]:hover {
+  color: #00cfff;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .editArea[data-v-6ef5f8b2] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 16px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .editArea .row[data-v-6ef5f8b2] {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .editArea .row .label[data-v-6ef5f8b2] {
+  width: 50px;
+  text-align: left;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .editArea .row .col[data-v-6ef5f8b2] {
+  flex: 1;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .editArea .rowButtons[data-v-6ef5f8b2] {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .editArea .rowButtons .button[data-v-6ef5f8b2] {
+  margin-left: 10px;
+  box-shadow: inset 0 0 10px #00cfff;
+  border: 1px solid #00cfff;
+  color: #fff;
+  height: 25px;
+  width: 60px;
+  font-size: 12px;
+  line-height: 25px;
+  cursor: pointer;
+  background: #00153b;
+  text-align: center;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .list[data-v-6ef5f8b2] {
+  height: calc(90vh - 720px);
+  overflow: auto;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .list .list-item[data-v-6ef5f8b2] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .layerMix .list .list-item i[data-v-6ef5f8b2] {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.resource-distribution-right .wrapper-right .mainPart .list .effectSelect[data-v-6ef5f8b2] {
+  border-top: 1px dotted #24d9fc;
+  text-align: left;
+  padding: 12px 16px;
+  margin-top: 10px;
+}
+[data-v-6ef5f8b2] .ant-switch .ant-switch__core {
+  border-color: #cacaca !important;
+  height: 16px;
+}
+[data-v-6ef5f8b2] .ant-switch .ant-switch__core:after {
+  background-color: #cacaca;
+  width: 12px;
+  height: 12px;
+}
+[data-v-6ef5f8b2] .ant-switch.is-checked .ant-switch__core:after {
+  background-color: #00bbda;
+  margin-left: -13px;
+}
+[data-v-6ef5f8b2] .ant-slider__button {
+  width: 8px;
+  height: 8px;
+  border: none;
+}
+[data-v-6ef5f8b2] .ant-slider__runway {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.12) 0%, #ffffff 100%);
+  height: 4px;
+  margin: 8px 0 10px 0;
+}
+[data-v-6ef5f8b2] .ant-slider__bar {
+  height: 0px;
+}
+[data-v-6ef5f8b2] .ant-slider__button-wrapper {
+  top: -16px;
+}
+[data-v-6ef5f8b2] .ant-input-number {
+  background-color: transparent;
+  color: #ffffff;
+  height: 25px;
+}
+[data-v-6ef5f8b2] .ant-input-number .ant-input-number-input {
+  border-radius: 0px;
+  height: 25px;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/resourceDistribution/resourceDistributionBottom.vue?vue&type=style&index=0&id=60d58d05&lang=scss&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.resource-distribution-bottom[data-v-60d58d05] {
+  background: linear-gradient(90deg, #2b597f 0%, rgba(0, 37, 102, 0.9) 100%);
+  width: 100vw;
+  color: #fff;
+}
+.resource-distribution-bottom .detail-top[data-v-60d58d05] {
+  height: 40px;
+  background: #002566;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 40px;
+}
+.resource-distribution-bottom .detail-top .typeList[data-v-60d58d05] {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+}
+.resource-distribution-bottom .detail-top .typeList .typeItem[data-v-60d58d05] {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.resource-distribution-bottom .detail-top .typeList .typeItem img[data-v-60d58d05] {
+  margin-right: 5px;
+}
+.resource-distribution-bottom .detail-top .typeList .selected[data-v-60d58d05] {
+  background: linear-gradient(180deg, rgba(86, 139, 146, 0) 0%, #26adcd 100%);
+}
+.resource-distribution-bottom .detail-main[data-v-60d58d05] {
+  padding: 10px 0;
+  font-size: 12px;
+}
+.resource-distribution-bottom .detail-main .detail-row[data-v-60d58d05] {
+  display: flex;
+  justify-content: space-between;
+}
+.resource-distribution-bottom .detail-main .detail-row .detail-firstCol[data-v-60d58d05] {
+  text-align: right;
+  padding-right: 16px;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+}
+.resource-distribution-bottom .detail-main .detail-row .detail-col[data-v-60d58d05] {
+  flex: 1;
+  height: 40px;
+  line-height: 40px;
+}
+.resource-distribution-bottom .detail-main .detail-row .detail-col .barItem[data-v-60d58d05] {
+  height: 20px;
+  line-height: 20px;
+  top: 10px;
+  position: relative;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/resourceDistribution/colorSpotLegend.vue?vue&type=style&index=0&id=4482b49a&lang=scss&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.color-spot-legend[data-v-4482b49a] {
+  color: #fff;
+  background: rgba(32, 49, 81, 0.6);
+  max-height: 250px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 0 10px 10px 10px;
+}
+.color-spot-legend .unit[data-v-4482b49a] {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+}
+.color-spot-legend .legend-bar .legend[data-v-4482b49a] {
+  display: flex;
+  justify-content: flex-start;
+  height: 10px;
+  align-items: center;
+}
+.color-spot-legend .legend-bar .legend .color-block[data-v-4482b49a] {
+  width: 30px;
+  height: 5px;
+}
+.color-spot-legend .legend-bar .legend .scale-text[data-v-4482b49a] {
+  font-size: 12px;
+  padding-left: 5px;
+  scale: 0.8;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/regionalStatistics/regionalStatistics.vue?vue&type=style&index=0&id=4a725c7a&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.regional-statistics[data-v-4a725c7a] {
+  height: 90vh;
+  color: #fff;
+  width: 350px;
+  background: linear-gradient(90deg, #2b597f 0%, rgba(0, 37, 102, 0.9) 100%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.regional-statistics .top[data-v-4a725c7a] {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+.regional-statistics .top .title[data-v-4a725c7a] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px;
+  font-size: 15px;
+  line-height: 48px;
+}
+.regional-statistics .top .list[data-v-4a725c7a] {
+  font-size: 14px;
+  margin-bottom: 10px;
+  max-height: calc(90vh - 540px);
+  overflow: auto;
+}
+.regional-statistics .top .list .listItem[data-v-4a725c7a] {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+.regional-statistics .top .list .isSelected[data-v-4a725c7a] {
+  background: linear-gradient(180deg, rgba(86, 139, 146, 0.23) 0%, #26adcd 100%);
+}
+.regional-statistics .top .timeSelect[data-v-4a725c7a] {
+  font-size: 14px;
+  padding: 0px 16px 10px 16px;
+}
+.regional-statistics .top .attributeList[data-v-4a725c7a] {
+  font-size: 14px;
+  padding: 4px 16px 20px;
+}
+.regional-statistics .bottom[data-v-4a725c7a] {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.regional-statistics .bottom .button[data-v-4a725c7a] {
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 10px;
+}
+.regional-statistics .bottom .button[data-v-4a725c7a]:first-of-type {
+  background: url(data:image/png;base64,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) no-repeat;
+  background-size: 100% 100%;
+}
+.regional-statistics .bottom .button[data-v-4a725c7a]:nth-of-type(2) {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAAfCAYAAAAV8rhrAAAAAXNSR0IArs4c6QAABT9JREFUaEPt2stuLEcdx/FvVd/vMzYXhSQ6KJMNS1gj3iGPwApWbCIhBCwPCCFlgxQBEhKPwCMgRazZsgmLoySKgNjTl+l7dTWq6XFOiAL2OeNhky6pZY/darXr419VdddfALzy+/w73jy/Iye+K8A2P1vb/7cHZlDa4i+9EG9//IPNX8U3/lB/2x+H9/aZer9MxvenWR3QY4/SI7Me0XpimjVaa5hnMF+Yj7c9y+Xz2r6gByQILY6/EAiQ5huBlBJLSKS0ENLBlg7S8Sxhx2nlvLkt7Dc7x/2e+OZv938uNlO2T9u/MU4NauwYVYcaBrQemWbFPGn0rJknQ3LCEAvO2u7pgXlBMTjCEkghEZbBsZEGxnVxbB/b8XGscFsG38pyqxBvvLsfnz1p/zRNQ07fNQyqZew7lEnNOKKUYtLTc5h5PiZlmlaSh/SAZS3JEeI5jCUtbNvGdhxsx8PxfFw7wPNDy3I3T54Fb4ndu/v5768Xf2RQFV1bM/QNQ9fR9z3dODINI+OsUINJiknOzGdNpBneVqT/NLJAi2UYM80CpPksJbYrcISN5Tr4joPnebi+j+uF+EGEaye7D7LvLzCv3v6Opq/omgN9W9O0HX3X0Y0DQ6/ohwk1ajgOafPxuMNYTb44NwbjTsWgHGEsie1IPNfC9Wx8x8XzfcLAxwsi/DAm9JLdR1c/XGC+/q/f0LQGpqJpapq6pW462nagqRWDmpjGCT3OaHmCUQ8J8nqOWeQeYbRAOgLLsXBtizCyCQKXKPQJo4AwNDAJYZDs/vHVHy0wX/nnO7R1SVMfOBwOVHVDWfV05UDfjzTtxDhpZqWZ9IxSIPU6+T/k305LgW2bsAiELXEsSRhYeJ6Dn7qkiUcShcRxTBjFBFG6++Rrby8w249/TVeXVHXJoagpDw3Fvqc9DNTtSF0rRqXRo0Z1MJkV2QrzEBcTF6xZYPsgHYljS6LIJgocgtgl23qkcUicRSRRih+lu/0rP15gso9+RdsUVGVJntcUVcNh31FVy1BWV4qh1fSzRk1mRbam5WEqp2nGEtiWwBMSN5BEiX0cypLEJd76ZEnIZhORpClBmO2KV3+ywGw+/CWHQ0FVlexvFpiq6Cirgep2pD1M1Gae6ecjzN3xIjf3ZT3XgNwdlieIbIsgtkiuHNLEJckWmO11RJKkxHG2y1/76QKTfPgL2qqgLEpuigPVfoG5vR0oi5HmBKO6E4qaYfyydvUL/t0O2PYJx19gwtgizRyurhaYZBtyncWkWUqQZLvqtZ+dhrIPnh4TY2Dy/MB+35AXHYebgWKvKGuzZNZ0g0atKC8oA5xwfNcslSVpZJNtbeJrl03ms92aoWyBMYkpXv/5CebZU6o6Jy8r8pvDcZ4p9z35zUCZj5S9oms0Xa8/TYoZztZ2fw+YYezYHPA9iR9KUs8m3Thsrl3SrXecXzbXMZs0IYk2u+LJCSZ59pS6yimq8gizv23Y5x1FMZAbmFrR1c/TYlBGk5y13dsDzmkY+zQ10ZKYzcYhy1y2G5/tVXiEyZKUKNnsqnthbgbyw2dg2mWOMW2FuddkCYq9JOa4AAgE/h1M7JBdvyzMmpiH9f7/OOusxGTrHHM2wH+7wFlzTLauyi4GczfxmyXzC6/K1ueYC7qc8xyzPvlfDuasJ//1XdnlYMyVrZd9V7a+Xb4gzDlvl9f9mMvBnLUfs+5gXg7mrB3Mdc//8WEeZc9/rZJ5ZJhHqJJZ68oe2eTzl3vZurK1EvPCMLxkJeZau3wpmDNrl81trdX+l8J5+HU/X+3/bwCrBxlG38HYAAAAAElFTkSuQmCC) no-repeat;
+  background-size: 100% 100%;
+}
+.regionArea[data-v-4a725c7a] {
+  color: #fff;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.regionArea .area[data-v-4a725c7a] {
+  min-width: 50%;
+}
+[data-v-4a725c7a] .ant-divider-dashed {
+  border-color: #24d9fc;
+}
+[data-v-4a725c7a] .ant-divider-horizontal {
+  margin: 2px 0;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/ecologicalResources/labelList/labelList.vue?vue&type=style&index=0&id=9ed2f684&lang=scss&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.label-list[data-v-9ed2f684] {
+  height: 90vh;
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+.label-list .label-list-player[data-v-9ed2f684] {
+  height: 100%;
+}
+.label-list .label-list-left[data-v-9ed2f684] {
+  height: 80px;
+  background: #001d50;
+  box-shadow: inset 0px 0px 6px 0px rgba(36, 217, 252, 0.7);
+  display: flex;
+  border-radius: 5px 0px 0px 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  justify-content: center;
+  align-items: center;
+}
+.label-list .label-list-left img[data-v-9ed2f684] {
+  margin: auto;
+  height: 22px;
+  width: auto;
+  cursor: pointer;
+}
+.label-list .label-list-left[data-v-9ed2f684]:hover {
+  border: 1px solid #00cfff;
+}
+.label-list .label-list-right[data-v-9ed2f684] {
+  height: 100%;
+  background: linear-gradient(90deg, #2b597f 0%, rgba(0, 37, 102, 0.9) 100%);
+  width: 250px;
+}
+.label-list .label-list-right .title[data-v-9ed2f684] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  line-height: 50px;
+  margin: 0 16px;
+}
+.label-list .label-list-right .dateSelect[data-v-9ed2f684] {
+  margin-top: 10px;
+}
+.label-list .label-list-right .dateSelect[data-v-9ed2f684] .el-input .el-input__inner {
+  height: 30px;
+  background: rgba(73, 92, 131, 0.8);
+  border-color: #6092a2;
+  border-radius: 0;
+  color: #fff;
+}
+.label-list .label-list-right .dateSelect[data-v-9ed2f684] .el-input .el-input__icon {
+  line-height: 30px;
+}
+.label-list .label-list-right .mainPart .searchBtn[data-v-9ed2f684] {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+.label-list .label-list-right .mainPart .searchBtn[data-v-9ed2f684] .ant-btn {
+  background-color: #1e4e94;
+  border: 1px solid #24d9fc;
+  color: white;
+  box-shadow: inset 0 0 4px 0 #24d9fc;
+  font-size: 13px;
+}
+.label-list .label-list-right .mainPart .list[data-v-9ed2f684] {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.label-list .label-list-right .mainPart .list .listTitle[data-v-9ed2f684] {
+  display: flex;
+  justify-content: space-between;
+  line-height: 32px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+.label-list .label-list-right .mainPart .list .listTitle i[data-v-9ed2f684] {
+  font-size: 14px;
+}
+.label-list .label-list-right .mainPart .list .listItem[data-v-9ed2f684] {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.label-list .label-list-right .mainPart .list .listItem .listItemInfo[data-v-9ed2f684] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+  cursor: pointer;
+}
+.label-list .label-list-right .mainPart .list .listItem .listItemInfo .eyesWrapper[data-v-9ed2f684] {
+  display: flex;
+  align-items: center;
+}
+.searchInput[data-v-9ed2f684] {
+  width: 60%;
+  margin: auto;
+}
+.spotInfo[data-v-9ed2f684] {
+  color: #fff;
+  margin: 8px;
+}
+[data-v-9ed2f684] .el-switch .el-switch__core {
+  border-color: #cacaca !important;
+  height: 16px;
+}
+[data-v-9ed2f684] .el-switch .el-switch__core:after {
+  background-color: #cacaca;
+  width: 12px;
+  height: 12px;
+}
+[data-v-9ed2f684] .el-switch.is-checked .el-switch__core:after {
+  background-color: #00bbda;
+  margin-left: -13px;
+}
+[data-v-9ed2f684] .el-input-group__append {
+  background-color: #50858d;
+  color: #fff;
+  position: relative;
+  border: 1px solid #50858d;
+}
+[data-v-9ed2f684] .el-input-group--append .el-input__inner {
+  background: rgba(68, 80, 106, 0.8);
+  color: #fff;
+  border: 1px solid #50858d;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs {
+  height: 100%;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__item {
+  height: 100%;
+  width: 116px;
+  line-height: 42px;
+  text-align: center;
+  padding: 0;
+  color: #fff;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__item.is-active {
+  background: linear-gradient(rgba(86, 139, 146, 0), #2399b5);
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__item:hover {
+  color: #00f6ff;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__header {
+  margin: 0;
+  height: 5.2%;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__nav-wrap,[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__nav-scroll,[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__nav {
+  height: 100%;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__nav-wrap::after,[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__active-bar {
+  background-color: #50858d;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__content {
+  height: 94%;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .el-tabs__content .el-tab-pane {
+  height: 100%;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .ant-btn {
+  margin: 0 16px;
+  background: #50858d;
+  border: none;
+  color: #fff;
+  padding: 6px 14px;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .ant-btn:hover,[data-v-9ed2f684] #gisTabs.el-tabs .ant-btn:focus,[data-v-9ed2f684] #gisTabs.el-tabs .ant-btn:active {
+  opacity: 0.8;
+}
+[data-v-9ed2f684] #gisTabs.el-tabs .ant-btn i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/ecologicalResources/pointBlock.vue?vue&type=style&index=0&id=79fecac4&lang=scss&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.pointBlock[data-v-79fecac4] {
+  width: 180px;
+  color: #fff;
+  position: absolute;
+  background: url(data:image/png;base64,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) no-repeat;
+  background-size: 100% 100%;
+}
+.pointBlock .block-top[data-v-79fecac4] {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #06d3ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+.pointBlock .block-top .name[data-v-79fecac4] {
+  background: linear-gradient(180deg, #ffffff 0%, #3cedf1 100%);
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.pointBlock .block-top[data-v-79fecac4] .ant-btn {
+  background-color: #00153b;
+  border: 1px solid #00ca81;
+  box-shadow: inset 0 0 8px 0 #118d4d;
+  border-radius: 3px;
+  color: #fff;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.pointBlock .block-top[data-v-79fecac4] .ant-btn:hover, .pointBlock .block-top[data-v-79fecac4] .ant-btn:focus, .pointBlock .block-top[data-v-79fecac4] .ant-btn:active {
+  opacity: 0.8;
+}
+.pointBlock .block-bottom[data-v-79fecac4] {
+  height: 60px;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: left;
+  padding: 5px 10px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/ecologicalResources/ecologicalResourcesTable/ecologicalResourcesTable.vue?vue&type=style&index=0&id=25474690&lang=scss&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.top[data-v-25474690] {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.top .tab[data-v-25474690] {
+  display: flex;
+}
+.top .tab .typeButton[data-v-25474690] {
+  height: 32px;
+  background: #495c83;
+  border: 1px solid #6092a2;
+  line-height: 32px;
+  color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.top .tab .typeButton i[data-v-25474690] {
+  font-size: 22px;
+  margin: 0 5px;
+}
+.remark[data-v-25474690] {
+  font-size: 14px;
+  color: #fff;
+  line-height: 32px;
+}
+.bottom[data-v-25474690] {
+  margin-top: 10px;
+  text-align: right;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/haikang-video.vue?vue&type=style&index=0&id=0bd992ed&lang=scss&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.haikangVideo[data-v-0bd992ed] {
+  overflow: hidden;
+}
+.haikangVideo .hkVideo[data-v-0bd992ed] {
+  width: 100%;
+  height: 100%;
+}
+.haikangVideo canvas[data-v-0bd992ed] {
+  width: 100%;
+  height: 100%;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/ecologicalResources/videoSurveillance/videoSurveillance.vue?vue&type=style&index=0&id=75fb097c&lang=scss&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.videoSurveillance[data-v-75fb097c] {
+  display: flex;
+  justify-content: flex-start;
+  height: 550px;
+}
+.videoSurveillance .cameraLeft[data-v-75fb097c] {
+  width: 200px;
+  overflow: auto;
+  border-right: 1px solid #6092a2;
+}
+.videoSurveillance .cameraLeft .camera[data-v-75fb097c] {
+  color: #fff;
+  cursor: pointer;
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.videoSurveillance .cameraLeft .camera .cameraName[data-v-75fb097c] {
+  font-style: normal;
+}
+.videoSurveillance .cameraLeft .camera[data-v-75fb097c]:hover {
+  background: linear-gradient(180deg, rgba(86, 139, 146, 0.23) 0%, #26adcd 100%);
+}
+.videoSurveillance .cameraRight[data-v-75fb097c] {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 10px;
+  overflow: hidden;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/ecologicalResources/imitateVideo/imitateVideo.vue?vue&type=style&index=0&id=5eb31618&lang=scss&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.imitateVideo[data-v-5eb31618] {
+  display: flex;
+  justify-content: flex-start;
+  height: 550px;
+}
+.imitateVideo .videoLeft[data-v-5eb31618] {
+  width: 200px;
+  overflow: auto;
+  border-right: 1px solid #6092a2;
+}
+.imitateVideo .videoLeft .video[data-v-5eb31618] {
+  color: #fff;
+  cursor: pointer;
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.imitateVideo .videoLeft .video .videoName[data-v-5eb31618] {
+  font-style: normal;
+}
+.imitateVideo .videoLeft .video[data-v-5eb31618]:hover {
+  background: linear-gradient(180deg, rgba(86, 139, 146, 0.23) 0%, #26adcd 100%);
+}
+.imitateVideo .videoRight[data-v-5eb31618] {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 10px;
+  overflow: hidden;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/components/ecologicalResources/scatterLegend.vue?vue&type=style&index=0&id=dd554d58&lang=scss&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.scatterLegend[data-v-dd554d58] {
+  background: rgba(14, 33, 72, 0.3137254902);
+  width: 480px;
+  padding: 10px 0;
+}
+.scatterLegend .title[data-v-dd554d58] {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 10px;
+  color: #fff;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.scatterLegend .title .type[data-v-dd554d58] {
+  font-weight: bold;
+}
+.scatterLegend .colors[data-v-dd554d58] {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.scatterLegend .colors .color[data-v-dd554d58] {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  margin: 0 10px;
+  width: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+.scatterLegend .colors .color .point[data-v-dd554d58] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.scatterLegend .colors .color .name[data-v-dd554d58] {
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+}
+[data-v-dd554d58] .el-switch .el-switch__core {
+  border-color: #cacaca !important;
+  height: 16px;
+}
+[data-v-dd554d58] .el-switch .el-switch__core:after {
+  background-color: #cacaca;
+  width: 12px;
+  height: 12px;
+}
+[data-v-dd554d58] .el-switch.is-checked .el-switch__core:after {
+  background-color: #00bbda;
+  margin-left: -13px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/vdo.vue?vue&type=style&index=0&id=a336a5be&scoped=true&lang=scss& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.videoBody[data-v-a336a5be] {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.videoBody.vdoOne .videoLeftTreeBox[data-v-a336a5be] {
+  width: 0 !important;
+}
+.videoBody.vdoOne .videoRightListBox[data-v-a336a5be] {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+.videoBody .videoLeftTreeBox[data-v-a336a5be] {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 15%;
+  overflow: auto;
+}
+.videoBody .videoLeftTreeBox[data-v-a336a5be]::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.videoBody .videoLeftTreeBox[data-v-a336a5be]::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgba(86, 114, 216, 0.7);
+}
+.videoBody .videoLeftTreeBox[data-v-a336a5be]::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0);
+}
+.videoBody .videoLeftTreeBox .videoItem[data-v-a336a5be] {
+  box-sizing: border-box;
+  padding: 20px 0;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.videoBody .videoLeftTreeBox .videoItem[data-v-a336a5be]:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.videoBody .videoRightListBox[data-v-a336a5be] {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 85%;
+  margin-left: 15%;
+}
+.videoBody .title[data-v-a336a5be] {
+  color: #f00;
+  margin-bottom: 10px;
+}
+.videoBody .videoList[data-v-a336a5be] {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 32px);
+}
+.videoBody .videoList .videoBox[data-v-a336a5be] {
+  width: calc(50% - 15px);
+  height: calc(50% - 15px);
+  border: 1px solid #757f87;
+  /* margin: 0 20px 20px 0; */
+  margin: 0 15px 15px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  background: #2b4a68 !important;
+}
+.videoBody .videoList .videoBox .videoplayer[data-v-a336a5be] {
+  width: 100%;
+  height: 93%;
+  z-index: 2;
+  position: relative;
+  -o-object-fit: fill;
+     object-fit: fill;
+  pointer-events: none;
+}
+.videoBody .videoList .videoBox .videoplayer[data-v-a336a5be]::-webkit-media-controls {
+  display: none !important;
+}
+.videoBody .videoList .videoBox .player-content[data-v-a336a5be] {
+  z-index: 9;
+  /* 特殊代码 去除视频上方的时间 */
+  /* end */
+}
+.videoBody .videoList .videoBox .noVideo[data-v-a336a5be] {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  line-height: 300px;
+  height: 93%;
+  width: 100%;
+  border-bottom: 1px solid #444;
+  background-color: #000;
+}
+.videoBody .videoList .videoBox .noVideo[data-v-a336a5be] .ant-spin {
+  position: absolute;
+  top: 49%;
+  bottom: 49%;
+  margin: auto;
+}
+.videoBody .videoList .videoBox .videotext[data-v-a336a5be] {
+  text-align: center;
+  width: 100%;
+  height: 7%;
+  color: #f1e8e8;
+  font-size: 16px;
+  line-height: 1;
+}
+.videoBody .videoList .videoBox .video-offline[data-v-a336a5be] {
+  width: 100%;
+  height: 93%;
+  z-index: 2;
+  position: relative;
+  background-image: url(./img/offline.63c8ee2e.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid #444;
+  margin-bottom: 7px;
+}
+.videoBody .videoList .videoBox .video-offline[data-v-a336a5be]::before {
+  content: "视频已离线";
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  color: #ccc;
+  text-shadow: 2px 2px 5px #333;
+}
+.videoBody .videoList .videoBox[data-v-a336a5be] .arrows-btn,
+.videoBody .videoList .videoBox[data-v-a336a5be] .shrink-btn {
+  display: none;
+  font-size: 22px;
+  position: absolute;
+  right: 8px;
+  bottom: 36px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+  padding: 3px;
+}
+.videoBody .videoList .videoBox[data-v-a336a5be]:hover .arrows-btn {
+  display: block;
+}
+.videoBody .videoList .videoBox[data-v-a336a5be]:nth-child(n+5):not(.bigVideoBox) {
+  display: none !important;
+}
+.videoBody .videoList .videoBox[data-v-a336a5be]:nth-child(2n) {
+  margin-right: 0;
+}
+.videoBody .videoList .bigVideoBox[data-v-a336a5be] {
+  visibility: visible;
+  width: 100%;
+  height: 104%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  margin-bottom: 0 !important;
+}
+.videoBody .videoList .bigVideoBox video.videoplayer[data-v-a336a5be] {
+  height: 97%;
+}
+.videoBody .videoList .bigVideoBox .noVideo[data-v-a336a5be] {
+  height: 97% !important;
+}
+.videoBody .videoList .bigVideoBox[data-v-a336a5be]:hover .shrink-btn {
+  display: block !important;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/vdo.vue?vue&type=style&index=1&id=a336a5be&lang=scss& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.video_modal ::v-deep .videoTree .ant-tree-node-content-wrapper {
+  color: #eee;
+}
+.video_modal ::v-deep .videoTree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background: none;
+  color: red;
+}
+.video_modal ::v-deep .videoTree .ant-tree {
+  color: #eee;
+}
+.video_modal .ant-modal {
+  top: 25px;
+  width: calc(100vw - 50px) !important;
+  padding: 0 !important;
+}
+.video_modal .ant-modal-body {
+  height: calc(100% - 42px);
+  padding: 0 15px 15px 15px !important;
+}
+.video_modal .ant-modal-header {
+  padding: 10px 24px;
+  background: #2b4a68 !important;
+  border-bottom: none;
+}
+.video_modal .ant-modal-title {
+  color: #f1e8e8;
+}
+.video_modal .anticon {
+  color: #f1e8e8;
+}
+.video_modal .ant-modal-close-x {
+  height: 40px;
+  line-height: 40px;
+}
+.video_modal .ant-modal-content {
+  height: calc(100vh - 50px) !important;
+  overflow: hidden !important;
+  background: #2b4a68 !important;
+}
+.video_modal .ant-pagination-item-link,
+.video_modal .ant-pagination-item {
+  background-color: #2b4a68 !important;
+  border: 1px solid #757f87;
+  color: #f1e8e8;
+}
+.video_modal .ant-pagination-item a {
+  color: #f1e8e8;
+}
+.video_modal .ant-pagination-item-active a {
+  color: #1890ff;
+}
+.video_modal .ant-pagination-item a:hover {
+  color: #1890ff;
+}
+.video_modal .ant-modal-body {
+  padding: 0 10px 10px 10px !important;
+}
+.videoTree .ant-tree-title {
+  color: #fff !important;
+}
+.videoTree .ant-tree-checkbox {
+  display: none;
+}
+.videoTree .ant-tree-node-content-wrapper {
+  width: 89%;
+}
+.videoTree .ant-tree-node-content-wrapper:hover {
+  background-color: rgb(95, 117, 127) !important;
+}
+.videoTree .ant-tree-node-content-wrapper:hover .ant-tree-title {
+  color: #eee !important;
+}
+.videoTree .ant-tree-treenode-selected .ant-tree-title {
+  color: rgb(30, 26, 26) !important;
+}
+.videoTree .ant-tree-treenode-checkbox-checked .ant-tree-node-content-wrapper {
+  border: 1px solid #fff;
+}
+.videoTree .tree-item-icon {
+  display: inline-block;
+  background-color: #888;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.videoTree .tree-item-icon.treeCameraOnline {
+  background-color: #37b043;
+}
+.backpopover .ant-popover-arrow {
+  border-top-color: #00dffa !important;
+  border-right-color: #00dffa !important;
+}
+.backpopover .ant-popover-inner-content {
+  box-shadow: inset #00dffa 0px 0px 8px !important;
+  border-radius: 3px;
+  border: 1px solid #00dffa;
+  background-color: #1c256a;
+}
+.backpopover .ant-popover-inner-content span {
+  color: #fff;
+  font-weight: bold;
+  background-image: linear-gradient(180deg, #fff 0%, #ddd 40%, #00dffa 100%) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-112.use[1]!./node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-112.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-112.use[3]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/pages/home.vue?vue&type=style&index=0&id=56b687e3&lang=scss&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ecology-home[data-v-56b687e3] {
+  height: 100vh;
+  position: relative;
+}
+.ecology-home[data-v-56b687e3] .rangePicker {
+  width: 100% !important;
+}
+.ecology-home > *[data-v-56b687e3] {
+  pointer-events: auto;
+}
+.ecology-home .buttonBar[data-v-56b687e3] {
+  position: absolute;
+  right: 20px;
+  top: 10vh;
+  text-align: center;
+}
+.ecology-home .meteorologicalLeft[data-v-56b687e3] {
+  position: absolute;
+  top: 10vh;
+  left: 20px;
+}
+.ecology-home .meteorologicalRight[data-v-56b687e3] {
+  position: absolute;
+  top: 10vh;
+  right: 20px;
+}
+.ecology-home .resourceDistributionRight[data-v-56b687e3] {
+  position: absolute;
+  top: 10vh;
+  right: 0;
+}
+.ecology-home .colorSpotLegend[data-v-56b687e3] {
+  position: absolute;
+  bottom: 20px;
+}
+.ecology-home .resourceDistributionBottom[data-v-56b687e3] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.ecology-home .regionalStatistics[data-v-56b687e3] {
+  position: absolute;
+  top: 10vh;
+  right: 0;
+  text-align: center;
+}
+.ecology-home .videos[data-v-56b687e3] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2001;
+}
+.ecology-home .labelList[data-v-56b687e3] {
+  position: absolute;
+  top: 10vh;
+  right: 0;
+}
+.ecology-home .peiChartWrapper[data-v-56b687e3] {
+  position: absolute;
+  z-index: 2999;
+  left: 10%;
+  top: 15vh;
+  height: 655px;
+  width: 420px;
+  background: url(./img/blockBg.40e9e367.png) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.ecology-home .peiChartWrapper .title[data-v-56b687e3] {
+  margin-left: 16px;
+  line-height: 40px;
+  text-align: left;
+}
+.ecology-home .peiChartWrapper .mainContainer[data-v-56b687e3] {
+  display: flex;
+  flex-direction: column;
+  height: 610px;
+}
+.ecology-home .peiChartWrapper .mainContainer .chartWrapper[data-v-56b687e3] {
+  flex: 1;
+}
+.ecology-home .scatterLegend[data-v-56b687e3] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.ecology-home .areaPanel[data-v-56b687e3] {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.ecology-home .ue4Button[data-v-56b687e3] {
+  position: absolute;
+  top: 345px;
+}
+.ecology-home .ue4Button img[data-v-56b687e3] {
+  cursor: pointer;
+}
