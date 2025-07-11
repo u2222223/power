@@ -1196,7 +1196,7 @@ const Ot = "" + new URL("app-sm-1-BNwfjq--.png", import.meta.url).href,
         this.$refs.earthBox.change();
       },
       async onShowDetail(s) {
-        this.$message.warning("演示版暂不支持【跳转】功能");
+        this.$message.error("演示版暂不支持【跳转】功能");
         return;
         if (((this.currentAppType = s.category), s.requestType)) {
           const { result: t } = await C({ type: s.requestType });
@@ -1218,7 +1218,7 @@ const Ot = "" + new URL("app-sm-1-BNwfjq--.png", import.meta.url).href,
         } else
           s.applink
             ? (this.applink = s.applink)
-            : this.$message.warning("暂无对应链接");
+            : this.$message.error("暂无对应链接");
         s.fn && s.fn();
       },
       onBack() {
@@ -1238,7 +1238,7 @@ const Ot = "" + new URL("app-sm-1-BNwfjq--.png", import.meta.url).href,
       },
       changeCategory(s) {
         if (!this.appList.some((e) => e.category === s)) {
-          this.$message.warning("暂无对应权限");
+          this.$message.error("暂无对应权限");
           return;
         }
         const t = this.appList.findIndex((e) => e.category === s);

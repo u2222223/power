@@ -3283,9 +3283,7 @@
                   if (!e) return !1;
                   {
                     if (!this.windFarm.entityId)
-                      return void this.$message.warning(
-                        "请选择风电场后添加锚地"
-                      );
+                      return void this.$message.error("请选择风电场后添加锚地");
                     const { innerAnchorageName: e, anchorageType: t } =
                       this.form;
                     (0, c.CQ)({
@@ -3499,9 +3497,7 @@
                     (this.tableData = t || []),
                       list.length > 0 &&
                         ((this.visible = !0),
-                        this.$message.warning(
-                          `当前还有${t.length}艘船舶未撤离`
-                        ));
+                        this.$message.error(`当前还有${t.length}艘船舶未撤离`));
                   })
                   .catch((e) => {
                     console.log(e), (this.tableData = []);
@@ -5704,7 +5700,7 @@
             heatCheckChange(e) {
               e.length
                 ? (this.heatCheckbox = e)
-                : this.$message.warning("至少保留一个选项");
+                : this.$message.error("至少保留一个选项");
             },
             removeHeatMap(e = !0) {
               e &&
@@ -6720,7 +6716,7 @@
                 let t = this.taifenArrVal.findIndex((t) => t === e.value);
                 if (-1 !== t) {
                   if (1 === this.taifenArrVal.length)
-                    return void this.$message.warning("至少保留一个选项");
+                    return void this.$message.error("至少保留一个选项");
                   this.taifenArrVal.splice(t, 1);
                 } else this.taifenArrVal.push(e.value);
                 this.initAsiderNum();
@@ -6762,10 +6758,10 @@
                         console.log("打开视频播放");
                         const t = this.activeWindFarm.entityId;
                         if (!t)
-                          return void this.$message.warning("请先选择风电场");
+                          return void this.$message.error("请先选择风电场");
                         const A = await this.getCameraGroup(t);
                         if (!A)
-                          return void this.$message.warning(
+                          return void this.$message.error(
                             "该风电场下没有监控数据"
                           );
                         this.$set(e, "status", !e.status),
@@ -7955,7 +7951,7 @@
                         window.open(e.result);
                       })
                     : window.open(e)
-                  : this.$message.warning("无相关地址");
+                  : this.$message.error("无相关地址");
               },
               constTarget() {
                 this.viewer.scene.postRender.addEventListener(() => {
@@ -7995,9 +7991,9 @@
               },
               async queryShipTrack() {
                 if (2 !== this.trackDates.length)
-                  return void this.$message.warning("未选择时间范围");
+                  return void this.$message.error("未选择时间范围");
                 if (!this.shipInfo.mmsi)
-                  return void this.$message.warning("船舶数据异常");
+                  return void this.$message.error("船舶数据异常");
                 let { result: e } = await (0, c.lg)({
                   pageNo: 1,
                   pageSize: 3e3,
@@ -8668,8 +8664,7 @@
                   this.$emit("showShipPopup", !0);
               },
               drawShipTrack(e = []) {
-                if (!e.length)
-                  return void this.$message.warning("暂无轨迹数据");
+                if (!e.length) return void this.$message.error("暂无轨迹数据");
                 let t = JSON.parse(JSON.stringify(e));
                 this.removeCustom("ship_his");
                 let A = new Cesium.CustomDataSource("ship_his");

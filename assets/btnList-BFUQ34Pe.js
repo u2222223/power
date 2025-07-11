@@ -54,7 +54,7 @@ var i = function () {
             staticClass: "btn4 selectBtnGreen",
             on: {
               click: function (r) {
-                e.$message.warning("演示版暂不支持【船舶预警】功能");
+                e.$message.error("演示版暂不支持【船舶预警】功能");
                 return;
                 return e.$emit("switchShip", !e.showShipModule);
               },
@@ -72,7 +72,7 @@ var i = function () {
             staticClass: "btn3 selectBtnGreen",
             on: {
               click: function () {
-                e.$message.warning("演示版暂不支持【摄像头】功能");
+                e.$message.error("演示版暂不支持【摄像头】功能");
                 return;
               },
             },
@@ -82,7 +82,7 @@ var i = function () {
             class: e.selectBtn2 ? "selectBtnGreen" : "selectBtnGray",
             on: {
               click: function () {
-                e.$message.warning("演示版暂不支持【台风】功能");
+                e.$message.error("演示版暂不支持【台风】功能");
                 return;
               },
             },

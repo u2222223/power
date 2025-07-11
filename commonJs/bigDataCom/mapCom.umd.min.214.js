@@ -1424,7 +1424,7 @@
                   } else
                     this.$refs.cesiumMap &&
                       this.$refs.cesiumMap.tpModuleShow &&
-                      (this.$message.warning("该风电场下没有监控数据"),
+                      (this.$message.error("该风电场下没有监控数据"),
                       this.$refs.cesiumMap.handleClosePanel("video"));
               },
               async onVideoTabChange(e) {
