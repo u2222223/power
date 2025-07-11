@@ -14,9 +14,15 @@
   (table $q (;0;) (export "q") 44 44 funcref)
   (memory $m (;0;) (export "m") 64 32768)
   (global $global0 (mut i32) (i32.const 36832))
-  (elem $elem0 (i32.const 1) funcref (ref.func $func85) (ref.func $func84) (ref.func $func34) (ref.func $func34) (ref.func $func34) (ref.func $func25) (ref.func $func81) (ref.func $func77) (ref.func $func78) (ref.func $func79) (ref.func $func34) (ref.func $n) (ref.func $func25) (ref.func $func25) (ref.func $func25) (ref.func $func25) (ref.func $func76) (ref.func $func25) (ref.func $func24) (ref.func $func82) (ref.func $func42) (ref.func $func30) (ref.func $func20) (ref.func $func14) (ref.func $func62) (ref.func $func21) (ref.func $func80) (ref.func $func74) (ref.func $func75) (ref.func $func83) (ref.func $func86) (ref.func $func54) (ref.func $func41) (ref.func $func73) (ref.func $func25) (ref.func $n) (ref.func $func72) (ref.func $func71) (ref.func $func25) (ref.func $func67) (ref.func $func68) (ref.func $func66) (ref.func $func65))
+  (elem $elem0 (i32.const 1) (ref func) (ref.func $func85) (ref.func $func84) (ref.func $func34) (ref.func $func34) (ref.func $func34) (ref.func $func25) (ref.func $func81) (ref.func $func77) (ref.func $func78) (ref.func $func79) (ref.func $func34) (ref.func $n) (ref.func $func25) (ref.func $func25) (ref.func $func25) (ref.func $func25) (ref.func $func76) (ref.func $func25) (ref.func $func24) (ref.func $func82) (ref.func $func42) (ref.func $func30) (ref.func $func20) (ref.func $func14) (ref.func $func62) (ref.func $func21) (ref.func $func80) (ref.func $func74) (ref.func $func75) (ref.func $func83) (ref.func $func86) (ref.func $func54) (ref.func $func41) (ref.func $func73) (ref.func $func25) (ref.func $n) (ref.func $func72) (ref.func $func71) (ref.func $func25) (ref.func $func67) (ref.func $func68) (ref.func $func66) (ref.func $func65))
   (func $p (;12;) (export "p") (param $var0 i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
     block $label0
       local.get $var0
       i32.eqz
@@ -811,7 +817,18 @@
     end $label0
   )
   (func $o (;13;) (export "o") (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
     global.get $global0
     i32.const 16
     i32.sub
@@ -3812,7 +3829,12 @@
     local.get $var0
   )
   (func $func14 (param $var0 i32) (param $var1 i32) (result i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
     block $label0
       local.get $var0
       local.get $var1
@@ -4023,7 +4045,15 @@
     i32.const 1
   )
   (func $func15 (param $var0 i32) (param $var1 i32) (param $var2 i32) (result f32)
-    (local $var3 f32) (local $var4 f32) (local $var5 f32) (local $var6 f32) (local $var7 f32) (local $var8 f32) (local $var9 i32) (local $var10 i32) (local $var11 i32)
+    (local $var3 f32)
+    (local $var4 f32)
+    (local $var5 f32)
+    (local $var6 f32)
+    (local $var7 f32)
+    (local $var8 f32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
     global.get $global0
     i32.const -64
     i32.add
@@ -4201,7 +4231,8 @@
     local.get $var6
   )
   (func $func16 (param $var0 i32) (param $var1 i32) (param $var2 i32) (result i32)
-    (local $var3 i32) (local $var4 i32)
+    (local $var3 i32)
+    (local $var4 i32)
     block $label0
       local.get $var2
       i32.eqz
@@ -4240,7 +4271,9 @@
     i32.const 0
   )
   (func $func17 (param $var0 i32) (param $var1 i32) (param $var2 i32)
-    (local $var3 i32) (local $var4 i32) (local $var5 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
     local.get $var0
     i32.load8_u
     i32.const 32
@@ -4381,7 +4414,12 @@
     end
   )
   (func $func18 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
     local.get $var0
     i32.load offset=20
     local.tee $var2
@@ -4722,7 +4760,12 @@
     global.set $global0
   )
   (func $func20 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
     block (result i32)
       local.get $var0
       local.set $var5
@@ -4953,7 +4996,14 @@
     call $a.h
   )
   (func $func22 (param $var0 i32) (param $var1 i32) (result i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
     block $label0 (result i32)
       i32.const 0
       i32.const 64
@@ -5394,7 +5444,8 @@
     nop
   )
   (func $func26 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32)
+    (local $var1 i32)
+    (local $var2 i32)
     i32.const 1648
     i32.load
     local.tee $var1
@@ -5415,7 +5466,7 @@
       select
       br_if $label0
       local.get $var0
-      current_memory
+      memory.size
       i32.const 16
       i32.shl
       i32.gt_u
@@ -5437,7 +5488,11 @@
     i32.const -1
   )
   (func $func27 (param $var0 i32) (param $var1 i32) (param $var2 i32) (param $var3 i32) (param $var4 i32) (param $var5 i32)
-    (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
     local.get $var1
     i32.const 4
     i32.add
@@ -5682,7 +5737,10 @@
     unreachable
   )
   (func $func28 (param $var0 i64) (param $var1 i32) (result i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i64)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i64)
     block $label0
       local.get $var0
       i64.const 4294967296
@@ -5904,7 +5962,13 @@
     call_indirect (param i32)
   )
   (func $func30 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
     i32.const 40
     call $o
     local.set $var4
@@ -6117,7 +6181,12 @@
     local.get $var1
   )
   (func $func31 (param $var0 i32) (param $var1 i32) (param $var2 i32) (result i32)
-    (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
     local.get $var1
     i32.load
     local.set $var3
@@ -6267,7 +6336,17 @@
     nop
   )
   (func $func33 (param $var0 i32) (param $var1 i32) (result i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
     local.get $var0
     i32.eqz
     if
@@ -6813,7 +6892,17 @@
     nop
   )
   (func $func35 (param $var0 i32) (param $var1 i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 f32) (local $var12 f32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 f32)
+    (local $var12 f32)
     global.get $global0
     i32.const -64
     i32.add
@@ -7656,7 +7745,22 @@
     unreachable
   )
   (func $func36 (param $var0 i32) (param $var1 i32) (param $var2 i32) (param $var3 i32) (param $var4 i32) (param $var5 i32) (result i32)
-    (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 i32) (local $var17 i32) (local $var18 i32) (local $var19 i32) (local $var20 i32) (local $var21 i64)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 i32)
+    (local $var17 i32)
+    (local $var18 i32)
+    (local $var19 i32)
+    (local $var20 i32)
+    (local $var21 i64)
     global.get $global0
     i32.const 80
     i32.sub
@@ -8939,7 +9043,27 @@
     local.get $var13
   )
   (func $func37 (param $var0 i32) (param $var1 i32) (result i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 i32) (local $var17 i32) (local $var18 i32) (local $var19 i32) (local $var20 i32) (local $var21 f32) (local $var22 f32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 i32)
+    (local $var17 i32)
+    (local $var18 i32)
+    (local $var19 i32)
+    (local $var20 i32)
+    (local $var21 f32)
+    (local $var22 f32)
     global.get $global0
     i32.const 48
     i32.sub
@@ -9543,7 +9667,12 @@
     unreachable
   )
   (func $func38 (param $var0 i32) (param $var1 i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
     local.get $var0
     i32.const 1132
     i32.load
@@ -9746,7 +9875,14 @@
     end
   )
   (func $func39 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 f32) (local $var8 f32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 f32)
+    (local $var8 f32)
     local.get $var0
     i32.load offset=12
     local.tee $var1
@@ -9887,7 +10023,9 @@
     call $p
   )
   (func $func41 (param $var0 i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
     local.get $var0
     i32.load offset=40
     local.tee $var1
@@ -9955,7 +10093,9 @@
     call $p
   )
   (func $func42 (result i32)
-    (local $var0 i32) (local $var1 i32) (local $var2 i32)
+    (local $var0 i32)
+    (local $var1 i32)
+    (local $var2 i32)
     i32.const 128
     call $o
     local.tee $var0
@@ -10247,7 +10387,9 @@
     end $label0
   )
   (func $func46 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
     local.get $var0
     i32.load
     i32.load8_s
@@ -10287,7 +10429,9 @@
     local.get $var2
   )
   (func $func47 (param $var0 i32) (param $var1 i32) (param $var2 i32) (param $var3 i32)
-    (local $var4 i32) (local $var5 i32) (local $var6 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
     global.get $global0
     i32.const 208
     i32.sub
@@ -10448,7 +10592,8 @@
     global.set $global0
   )
   (func $func48 (param $var0 f64) (param $var1 i32) (result f64)
-    (local $var2 i32) (local $var3 i64)
+    (local $var2 i32)
+    (local $var3 i64)
     local.get $var0
     i64.reinterpret_f64
     local.tee $var3
@@ -10647,7 +10792,9 @@
     end $label2
   )
   (func $func50 (param $var0 i32) (param $var1 i32) (param $var2 i32)
-    (local $var3 i32) (local $var4 i32) (local $var5 i64)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i64)
     block $label0
       local.get $var2
       i32.eqz
@@ -10833,7 +10980,8 @@
     end $label0
   )
   (func $func51 (param $var0 i32) (param $var1 i32) (param $var2 i32)
-    (local $var3 i32) (local $var4 i32)
+    (local $var3 i32)
+    (local $var4 i32)
     local.get $var2
     i32.const 512
     i32.ge_u
@@ -11091,7 +11239,12 @@
     end
   )
   (func $func52 (param $var0 i32) (param $var1 i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
     local.get $var0
     local.get $var1
     i32.add
@@ -11852,7 +12005,9 @@
     end $label1
   )
   (func $func53 (param $var0 i32) (param $var1 i32) (param $var2 i32) (param $var3 i32) (result i32)
-    (local $var4 i32) (local $var5 i32) (local $var6 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
     i32.const 2440
     i32.const 2440
     i32.load
@@ -11923,7 +12078,15 @@
     local.get $var1
   )
   (func $func54 (param $var0 i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
     local.get $var0
     i32.load offset=40
     local.tee $var4
@@ -12143,7 +12306,10 @@
     end
   )
   (func $func55 (param $var0 i32) (param $var1 i32) (param $var2 i32) (result f32)
-    (local $var3 f32) (local $var4 f32) (local $var5 f32) (local $var6 f32)
+    (local $var3 f32)
+    (local $var4 f32)
+    (local $var5 f32)
+    (local $var6 f32)
     local.get $var1
     f32.load offset=28
     local.tee $var3
@@ -12193,7 +12359,16 @@
     end
   )
   (func $func56 (param $var0 i32) (param $var1 i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 f32) (local $var11 f32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 f32)
+    (local $var11 f32)
     local.get $var1
     i32.load offset=4
     i32.load offset=8
@@ -12541,7 +12716,31 @@
     unreachable
   )
   (func $func57 (param $var0 i32) (param $var1 i32) (result i32)
-    (local $var2 f32) (local $var3 f32) (local $var4 f32) (local $var5 f32) (local $var6 f32) (local $var7 f32) (local $var8 f32) (local $var9 f32) (local $var10 f32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 i32) (local $var17 i32) (local $var18 i32) (local $var19 i32) (local $var20 i32) (local $var21 i32) (local $var22 i32) (local $var23 i32) (local $var24 i32) (local $var25 i32) (local $var26 f64)
+    (local $var2 f32)
+    (local $var3 f32)
+    (local $var4 f32)
+    (local $var5 f32)
+    (local $var6 f32)
+    (local $var7 f32)
+    (local $var8 f32)
+    (local $var9 f32)
+    (local $var10 f32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 i32)
+    (local $var17 i32)
+    (local $var18 i32)
+    (local $var19 i32)
+    (local $var20 i32)
+    (local $var21 i32)
+    (local $var22 i32)
+    (local $var23 i32)
+    (local $var24 i32)
+    (local $var25 i32)
+    (local $var26 f64)
     global.get $global0
     i32.const 144
     i32.sub
@@ -14340,7 +14539,9 @@
     unreachable
   )
   (func $func58 (param $var0 i32) (param $var1 f32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
     i32.const 16
     call $o
     local.tee $var2
@@ -14410,7 +14611,9 @@
     unreachable
   )
   (func $func59 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 f32) (local $var3 f32)
+    (local $var1 i32)
+    (local $var2 f32)
+    (local $var3 f32)
     local.get $var0
     i32.load offset=12
     local.tee $var1
@@ -14482,7 +14685,16 @@
     local.get $var0
   )
   (func $func60 (param $var0 i32) (param $var1 i32) (result i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 f32) (local $var11 f32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 f32)
+    (local $var11 f32)
     local.get $var0
     i32.load offset=20
     if
@@ -14741,7 +14953,21 @@
     i32.xor
   )
   (func $func61 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 f32) (local $var15 f32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 f32)
+    (local $var15 f32)
     local.get $var0
     i32.load offset=4
     local.tee $var3
@@ -14934,7 +15160,39 @@
     local.get $var9
   )
   (func $func62 (param $var0 i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 i32) (local $var17 i32) (local $var18 f32) (local $var19 f32) (local $var20 f32) (local $var21 f32) (local $var22 f32) (local $var23 f32) (local $var24 f32) (local $var25 f32) (local $var26 f32) (local $var27 f32) (local $var28 f32) (local $var29 f32) (local $var30 f32) (local $var31 f32) (local $var32 f32) (local $var33 f32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 i32)
+    (local $var17 i32)
+    (local $var18 f32)
+    (local $var19 f32)
+    (local $var20 f32)
+    (local $var21 f32)
+    (local $var22 f32)
+    (local $var23 f32)
+    (local $var24 f32)
+    (local $var25 f32)
+    (local $var26 f32)
+    (local $var27 f32)
+    (local $var28 f32)
+    (local $var29 f32)
+    (local $var30 f32)
+    (local $var31 f32)
+    (local $var32 f32)
+    (local $var33 f32)
     local.get $var0
     i32.load offset=8
     local.set $var4
@@ -14996,43 +15254,43 @@
         i32.eq
         local.tee $var17
         if
-          f32.const -1.9999999867631625e+37
+          f32.const -1.99999999e+37
           local.set $var25
-          f32.const 1.9999999867631625e+37
+          f32.const 1.99999999e+37
           local.set $var22
-          f32.const 1.9999999867631625e+37
+          f32.const 1.99999999e+37
           local.set $var23
-          f32.const -1.9999999867631625e+37
+          f32.const -1.99999999e+37
           local.set $var24
-          f32.const 1.9999999867631625e+37
+          f32.const 1.99999999e+37
           local.set $var20
-          f32.const -1.9999999867631625e+37
+          f32.const -1.99999999e+37
           local.set $var21
           br $label1
         end
-        f32.const 1.9999999867631625e+37
+        f32.const 1.99999999e+37
         local.set $var28
-        f32.const -1.9999999867631625e+37
+        f32.const -1.99999999e+37
         local.set $var29
-        f32.const -1.9999999867631625e+37
+        f32.const -1.99999999e+37
         local.set $var30
-        f32.const 1.9999999867631625e+37
+        f32.const 1.99999999e+37
         local.set $var31
-        f32.const -1.9999999867631625e+37
+        f32.const -1.99999999e+37
         local.set $var32
-        f32.const 1.9999999867631625e+37
+        f32.const 1.99999999e+37
         local.set $var33
-        f32.const -1.9999999867631625e+37
+        f32.const -1.99999999e+37
         local.set $var25
-        f32.const 1.9999999867631625e+37
+        f32.const 1.99999999e+37
         local.set $var22
-        f32.const -1.9999999867631625e+37
+        f32.const -1.99999999e+37
         local.set $var21
-        f32.const 1.9999999867631625e+37
+        f32.const 1.99999999e+37
         local.set $var20
-        f32.const -1.9999999867631625e+37
+        f32.const -1.99999999e+37
         local.set $var24
-        f32.const 1.9999999867631625e+37
+        f32.const 1.99999999e+37
         local.set $var23
         local.get $var5
         local.set $var2
@@ -15683,7 +15941,27 @@
     global.get $global0
   )
   (func $func65 (param $var0 i32) (param $var1 f64) (param $var2 i32) (param $var3 i32) (param $var4 i32) (param $var5 i32) (result i32)
-    (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 i32) (local $var17 i32) (local $var18 i32) (local $var19 i32) (local $var20 i32) (local $var21 i32) (local $var22 i32) (local $var23 i32) (local $var24 f64) (local $var25 i64) (local $var26 i64)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 i32)
+    (local $var17 i32)
+    (local $var18 i32)
+    (local $var19 i32)
+    (local $var20 i32)
+    (local $var21 i32)
+    (local $var22 i32)
+    (local $var23 i32)
+    (local $var24 f64)
+    (local $var25 i64)
+    (local $var26 i64)
     global.get $global0
     i32.const 560
     i32.sub
@@ -17256,7 +17534,13 @@
     i32.const 0
   )
   (func $func68 (param $var0 i32) (param $var1 i32) (param $var2 i32) (result i32)
-    (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
     global.get $global0
     i32.const 32
     i32.sub
@@ -17461,7 +17745,23 @@
     end
   )
   (func $r (;70;) (export "r") (param $var0 i32) (param $var1 i32) (param $var2 i32) (param $var3 i32) (param $var4 i32) (param $var5 i32) (result i32)
-    (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 f32) (local $var17 f32) (local $var18 f32) (local $var19 f64) (local $var20 f64) (local $var21 f64) (local $var22 f64)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 f32)
+    (local $var17 f32)
+    (local $var18 f32)
+    (local $var19 f64)
+    (local $var20 f64)
+    (local $var21 f64)
+    (local $var22 f64)
     loop $label0
       local.get $var7
       i32.const 2
@@ -17867,7 +18167,7 @@
                     i32.const 0
                     i32.store offset=4
                   end
-                  f32.const -9.999999933815813e+36
+                  f32.const -9.99999993e+36
                   local.get $var10
                   f32.load offset=4
                   local.tee $var16
@@ -17883,7 +18183,7 @@
                   f64.const 1e+37
                   f64.gt
                   local.set $var6
-                  f32.const -9.999999933815813e+36
+                  f32.const -9.99999993e+36
                   local.get $var10
                   f32.load
                   local.tee $var17
@@ -17901,7 +18201,7 @@
                   local.set $var9
                   block $label5
                     block $label4
-                      f32.const -9.999999933815813e+36
+                      f32.const -9.99999993e+36
                       local.get $var10
                       f32.load offset=8
                       local.tee $var18
@@ -17955,12 +18255,12 @@
                     i32.load offset=12
                     call_indirect (param i32)
                   end $label5
-                  f32.const 9.999999933815813e+36
+                  f32.const 9.99999993e+36
                   local.get $var16
                   local.get $var6
                   select
                   local.set $var16
-                  f32.const 9.999999933815813e+36
+                  f32.const 9.99999993e+36
                   local.get $var17
                   local.get $var9
                   select
@@ -17982,7 +18282,7 @@
                         i32.shl
                         i32.add
                         local.tee $var6
-                        f32.const 9.999999933815813e+36
+                        f32.const 9.99999993e+36
                         local.get $var18
                         local.get $var11
                         select
@@ -19452,7 +19752,8 @@
     i32.store
   )
   (func $func73 (param $var0 i32) (param $var1 i32)
-    (local $var2 i32) (local $var3 i32)
+    (local $var2 i32)
+    (local $var3 i32)
     local.get $var1
     i32.load offset=4
     local.tee $var2
@@ -19485,7 +19786,10 @@
     end
   )
   (func $func74 (param $var0 i32) (param $var1 i32) (param $var2 i32) (result i32)
-    (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
     i32.const 1
     local.set $var4
     block $label0
@@ -19573,7 +19877,15 @@
     local.get $var4
   )
   (func $func75 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 f32) (local $var9 f32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 f32)
+    (local $var9 f32)
     local.get $var0
     i32.load offset=40
     local.tee $var1
@@ -19919,7 +20231,9 @@
     nop
   )
   (func $func78 (param $var0 i32) (param $var1 i32) (result i32)
-    (local $var2 i32) (local $var3 f32) (local $var4 f32)
+    (local $var2 i32)
+    (local $var3 f32)
+    (local $var4 f32)
     i32.const 1
     local.set $var2
     local.get $var0
@@ -19947,7 +20261,10 @@
     end
   )
   (func $func79 (param $var0 i32) (param $var1 i32) (param $var2 i32) (result i32)
-    (local $var3 i32) (local $var4 i32) (local $var5 f32) (local $var6 f32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 f32)
+    (local $var6 f32)
     local.get $var2
     i32.load
     local.tee $var2
@@ -20049,7 +20366,26 @@
     f32.ge
   )
   (func $func80 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 i32) (local $var17 i32) (local $var18 i32) (local $var19 f32) (local $var20 f32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 i32)
+    (local $var17 i32)
+    (local $var18 i32)
+    (local $var19 f32)
+    (local $var20 f32)
     global.get $global0
     i32.const 48
     i32.sub
@@ -21095,10 +21431,10 @@
         i32.eqz
         br_if $label4
         local.get $var0
-        f32.const -3.999999973526325e+37
+        f32.const -3.99999997e+37
         call $func58
         local.get $var0
-        f32.const 3.999999973526325e+37
+        f32.const 3.99999997e+37
         call $func58
         local.get $var0
         i32.load offset=68
@@ -21557,7 +21893,30 @@
     call_indirect
   )
   (func $func82 (param $var0 i32) (result i32)
-    (local $var1 i32) (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 f32) (local $var10 f32) (local $var11 f32) (local $var12 f32) (local $var13 f32) (local $var14 f32) (local $var15 f32) (local $var16 f32) (local $var17 f32) (local $var18 f32) (local $var19 f32) (local $var20 f32) (local $var21 f32) (local $var22 f32) (local $var23 f32) (local $var24 f32)
+    (local $var1 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 f32)
+    (local $var10 f32)
+    (local $var11 f32)
+    (local $var12 f32)
+    (local $var13 f32)
+    (local $var14 f32)
+    (local $var15 f32)
+    (local $var16 f32)
+    (local $var17 f32)
+    (local $var18 f32)
+    (local $var19 f32)
+    (local $var20 f32)
+    (local $var21 f32)
+    (local $var22 f32)
+    (local $var23 f32)
+    (local $var24 f32)
     block $label7
       block $label0
         local.get $var0
@@ -22045,7 +22404,9 @@
     local.get $var2
   )
   (func $func83 (param $var0 i32) (param $var1 i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
     local.get $var1
     i32.load offset=40
     local.tee $var2
@@ -22288,7 +22649,24 @@
     i32.store8 offset=20
   )
   (func $func86 (param $var0 i32) (param $var1 i32)
-    (local $var2 i32) (local $var3 i32) (local $var4 i32) (local $var5 i32) (local $var6 i32) (local $var7 i32) (local $var8 i32) (local $var9 i32) (local $var10 i32) (local $var11 i32) (local $var12 i32) (local $var13 i32) (local $var14 i32) (local $var15 i32) (local $var16 i32) (local $var17 i32) (local $var18 i32) (local $var19 i32)
+    (local $var2 i32)
+    (local $var3 i32)
+    (local $var4 i32)
+    (local $var5 i32)
+    (local $var6 i32)
+    (local $var7 i32)
+    (local $var8 i32)
+    (local $var9 i32)
+    (local $var10 i32)
+    (local $var11 i32)
+    (local $var12 i32)
+    (local $var13 i32)
+    (local $var14 i32)
+    (local $var15 i32)
+    (local $var16 i32)
+    (local $var17 i32)
+    (local $var18 i32)
+    (local $var19 i32)
     global.get $global0
     i32.const 16
     i32.sub
