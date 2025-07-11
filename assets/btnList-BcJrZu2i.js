@@ -61,7 +61,8 @@ var o = function () {
               staticClass: "btn4 selectBtnGreen",
               on: {
                 click: function (r) {
-                  return e.$emit("switchShip", !e.showShipModule);
+                  
+                  // return e.$emit("switchShip", !e.showShipModule);
                 },
               },
             }),

@@ -1196,7 +1196,7 @@ const Ot = "" + new URL("app-sm-1-BNwfjq--.png", import.meta.url).href,
         this.$refs.earthBox.change();
       },
       async onShowDetail(s) {
-        this.$message.warning("演示版暂不支持跳转");
+        this.$message.warning("演示版暂不支持【跳转】功能");
         return;
         if (((this.currentAppType = s.category), s.requestType)) {
           const { result: t } = await C({ type: s.requestType });

@@ -125,7 +125,7 @@
     height: 87%;
     position: absolute;
     top: 12%;
-    background: url(./sidebar-bg-iDpzMOoZ.png) no-repeat;
+    /* background: url(./sidebar-bg-iDpzMOoZ.png) no-repeat; */
     background-size: 100% 100%;
     background-position: 2vw;
     transform: scaleX(-1)
@@ -177,7 +177,7 @@
 
 .buildBox .btnList[data-v-a46b4613] {
     position: fixed;
-    right: 25vw;
+    right: 29vw;
     bottom: 13vh;
     transition: right .6s
 }

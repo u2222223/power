@@ -27,13 +27,15 @@
     background-position: center;
     cursor: pointer;
     z-index: 202;
-    pointer-events: auto
+    pointer-events: auto;
+    position: absolute;
+    top: -25%;
 }
 
 .header .header-bg .nav[data-v-0030a477] {
     position: absolute;
     left: 0;
-    top: 1.5vw;
+    top: 1.7vw;
     z-index: 201;
     height: 4vw;
     width: 100%;
