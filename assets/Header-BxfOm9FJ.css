@@ -35,7 +35,7 @@
 .header .header-bg .nav[data-v-0030a477] {
     position: absolute;
     left: 0;
-    top: 1.7vw;
+    top: 2vw;
     z-index: 201;
     height: 4vw;
     width: 100%;
@@ -130,7 +130,8 @@
     font-size: .85vw;
     color: #fff;
     pointer-events: none;
-    z-index: 1014
+    z-index: 1014;
+    display: none;
 }
 
 .header .header-bg-color[data-v-0030a477] {

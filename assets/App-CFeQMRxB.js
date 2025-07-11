@@ -600,7 +600,7 @@ var tt = function () {
         staticStyle: { "pointer-events": "none" },
         attrs: { src: Y },
       }),
-      e("img", {
+      /* e("img", {
         staticClass: "earthBg4",
         staticStyle: { "pointer-events": "none" },
         attrs: { src: V },
@@ -619,11 +619,11 @@ var tt = function () {
         staticClass: "earthBg7",
         staticStyle: { "pointer-events": "none" },
         attrs: { src: G },
-      }),
-      e("div", {
+      }), */
+      /* e("div", {
         staticClass: "earthBg9",
         staticStyle: { "pointer-events": "none" },
-      }),
+      }), */
     ]);
   },
   et = [],

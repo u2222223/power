@@ -626,7 +626,7 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 42%;
+    width: 51%;
     height: 42%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1277,7 +1277,8 @@
     background-position: bottom;
     position: fixed;
     bottom: 0;
-    pointer-events: none
+    pointer-events: none;
+    display: none;
 }
 
 .container-parent .bottom-menu .btm-menu-list[data-v-8b4b60c2] {
