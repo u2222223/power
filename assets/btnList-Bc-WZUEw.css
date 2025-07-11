@@ -55,12 +55,12 @@
 }
 
 .btnListBox .optList .selectBtnGray[data-v-5fab12b1] {
-    filter: grayscale(100%)
+    /* filter: grayscale(100%) */
 }
 
 .btnListBox .greenBtn[data-v-5fab12b1] {
     width: 104px;
-    height: 58px;
+    height: 78px;
     background-image: url(./btn3-BfAX62L5.png);
     background-size: 100%;
     cursor: pointer;

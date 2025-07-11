@@ -79,16 +79,16 @@
     height: 87%;
     position: absolute;
     top: 12%;
-    background: url(./sidebar-bg-iDpzMOoZ.png) no-repeat;
+    /* background: url(./sidebar-bg-iDpzMOoZ.png) no-repeat; */
     background-size: 100% 100%;
-    background-position: 4vw
+    background-position: 2vw
 }
 
 .buildBox .contentNew>.left>.content>.leftContentBox[data-v-a46b4613] {
     width: 90%;
     height: 100%;
     padding: 30px;
-    left: 15%;
+    left: 8%;
     position: relative
 }
 

@@ -373,7 +373,8 @@
 
 .container-parent .left-block[data-v-8b4b60c2] {
     left: 0;
-    box-shadow: 24vw 0 10vw -1vw #020c41bb inset
+    /* box-shadow: 24vw 0 10vw -1vw #020c41bb inset */
+    background-image: linear-gradient(to right, #020c41bb, #00000000);
 }
 
 .container-parent .left-block.side-away[data-v-8b4b60c2] {
@@ -382,7 +383,8 @@
 
 .container-parent .right-block[data-v-8b4b60c2] {
     right: 0;
-    box-shadow: -24vw 0 10vw -1vw #020c41bb inset
+    /* box-shadow: -24vw 0 10vw -1vw #020c41bb inset */
+    background-image: linear-gradient(to left, #020c41bb, #00000000);
 }
 
 .container-parent .right-block.side-away[data-v-8b4b60c2] {
@@ -402,7 +404,8 @@
     top: 5vw;
     height: calc(100% - 7.5vw);
     pointer-events: auto;
-    background: url(./sidebar-bg-iDpzMOoZ.png) no-repeat;
+    /* 备注：边框 */
+    /* background: url(./sidebar-bg-iDpzMOoZ.png) no-repeat; */
     background-size: 100% 100%;
     background-position: 2vw;
     transition: all .3s ease-in-out
@@ -1141,6 +1144,7 @@
 .container-parent .sub-title[data-v-8b4b60c2]:after {
     content: "";
     position: absolute;
+    display: none;
     top: 0;
     bottom: 0;
     margin: auto 0;
@@ -1277,6 +1281,7 @@
 }
 
 .container-parent .bottom-menu .btm-menu-list[data-v-8b4b60c2] {
+    display: none !important;
     width: 49vw;
     height: 2.5vw;
     position: absolute;
@@ -1360,7 +1365,8 @@
     bottom: 0;
     margin: auto;
     pointer-events: none;
-    background: url(./map-mask-BpUj_1xO.png) no-repeat;
+    /* background: url(./map-mask-BpUj_1xO.png) no-repeat, url(./map-mask-BpUj_1xO_2.png) no-repeat; */
+    background: url(./map-mask-BpUj_1xO_2.png) no-repeat;
     background-size: 100%;
     background-position: 50% 70%;
     z-index: 10

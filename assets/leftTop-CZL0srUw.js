@@ -41,12 +41,14 @@ const s = n("companyCode") || "",
       list() {
         return this.projects
           .reduce((e, t) => (e.push(...(t.platformDynamicsList || [])), e), [])
-          .map(
-            (e) => (
-              (e.img = `/power/admin/dynamic/buildInfo/downloadFile?companyProject=${s}-19478&photo=${e.photo}`),
-              e
-            )
-          );
+          .map((e, index) => {
+            if (index % 2 === 0) {
+              e.img = `https://tse3.mm.bing.net/th/id/OIP.2jau7A1_KQWo9jI_Yxqf8gHaEd?rs=1&pid=ImgDetMain&o=7&rm=3`;
+            } else {
+              e.img = `https://th.bing.com/th/id/R.204c8d3ab43a268a2a33807872091b78?rik=J3VW7XxRkcDRFg&pid=ImgRaw&r=0`;
+            }
+            return e;
+          });
       },
     },
     data() {
