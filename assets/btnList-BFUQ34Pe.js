@@ -52,6 +52,7 @@ var i = function () {
               },
             ],
             staticClass: "btn4 selectBtnGreen",
+            attrs: { title: "船舶预警" },
             on: {
               click: function (r) {
                 e.$message.error("演示版暂不支持【船舶预警】功能");
@@ -69,6 +70,7 @@ var i = function () {
                 expression: "!selectBtn2",
               },
             ],
+            attrs: { title: "摄像头" },
             staticClass: "btn3 selectBtnGreen",
             on: {
               click: function () {
@@ -79,6 +81,7 @@ var i = function () {
           }),
           t("div", {
             staticClass: "btn2",
+            attrs: { title: "台风" },
             class: e.selectBtn2 ? "selectBtnGreen" : "selectBtnGray",
             on: {
               click: function () {
@@ -102,6 +105,7 @@ var i = function () {
                 expression: "!selectBtn2",
               },
             ],
+            attrs: { title: "隐藏按钮" },
             staticClass: "btn1 selectBtnGreen",
             on: { click: e.navToSafeSys },
           }),
