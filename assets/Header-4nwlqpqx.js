@@ -37,10 +37,29 @@ const h = ["plan", "build", "run"],
     },
     mounted() {
       this.activeMenu = this.$route.name;
+      // this.addIframe();
     },
     methods: {
       hasPermission(a) {
         return o(a);
+      },
+      checkIframe() {
+        const home = document.getElementById("home");
+        let iframe = home.querySelector('iframe[data-role="baidu-frame"]');
+      },
+      addIframe() {
+        setTimeout(() => {
+          const home = document.getElementById("home");
+          // 不存在 → 新建并插入
+          let iframe = document.createElement("iframe");
+          iframe.setAttribute("data-role", "baidu-frame");
+          iframe.src =
+            "/run/index.html#/Fengji/RealtimeMonitor?pageCode=1%23&entityId=1388347";
+          iframe.style.cssText =
+            "position:fixed; top:0; left:0; width:100vw; height:100vh; border:none; z-index:10;display:none;";
+          home.appendChild(iframe);
+          iframe.style.display = "none";
+        }, 500);
       },
       changeTime: u,
       changeBtnFn() {
@@ -52,11 +71,10 @@ const h = ["plan", "build", "run"],
           });
       },
       onClickMenu(a) {
-        if (["weather", "run", "data"].some((b) => b === a.menu)) {
+        if (["weather", "data"].some((b) => b === a.menu)) {
           this.$message.error("演示版暂无该功能");
           return;
         }
-        console.log(a);
 
         this.$route.path !== a.path &&
           (a.menu &&
@@ -64,6 +82,8 @@ const h = ["plan", "build", "run"],
             localStorage.setItem("routerName", a.menu),
           (this.activeMenu = a.menu),
           this.$router.push(a.path));
+
+        // this.addIframe();
       },
       async logout() {
         if (this.$route.query.childPage) {
